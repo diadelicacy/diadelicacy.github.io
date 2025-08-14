@@ -332,6 +332,14 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 /* .navbar, */
+
+#header-wrap {
+    position: relative;
+    z-index: 199;
+    -webkit-backface-visibility: hidden;
+}
+
+
 .header-btn-group .btn { display: none; }
 
 .header {
@@ -346,6 +354,7 @@ body.active { overflow: hidden; }
   border-block-end: 1px solid var(--champagne-pink_20);
   z-index: 4;
 }
+
 
 .header.active {
   --color: var(--rich-black-fogra-29);
