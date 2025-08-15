@@ -94,6 +94,16 @@
             </div>
 
 
+    <div class="flex items-center justify-center py-20 relative overflow-hidden">
+    <div class="text-center text-3xl font-bold text-custom-red-800 z-10">
+        🎉 We’re 1 Year Old! 🎉
+    </div>
+    <canvas id="confetti-canvas" class="fixed top-0 left-0 w-full h-full pointer-events-none z-0"></canvas>
+
+    </div>
+
+
+
     <!-- Chef's Introduction (About) Section -->
     <section id="about" class="py-16 md:py-24 bg-white">
         <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-8">
@@ -309,6 +319,43 @@ Must visit 😋😋"
     </footer>
 
     <script>
+
+        // 1 year celebrations - confetti on page load --  starts
+        window.onload = function () {
+            const confettiCanvas = document.getElementById('confetti-canvas');
+            const myConfetti = confetti.create(confettiCanvas, { resize: true, useWorker: true });
+
+            function runConfetti() {
+            const duration = 2 * 1000; // Run confetti for 2 seconds
+            const end = Date.now() + duration;
+
+            (function frame() {
+                myConfetti({
+                particleCount: 5,
+                angle: 60,
+                spread: 55,
+                origin: { x: 0 }
+                });
+                myConfetti({
+                particleCount: 5,
+                angle: 120,
+                spread: 55,
+                origin: { x: 1 }
+                });
+
+                if (Date.now() < end) {
+                requestAnimationFrame(frame);
+                }
+            }());
+            }
+
+            // Run immediately, then every 5 seconds
+            runConfetti();
+            setInterval(runConfetti, 6000);
+        };
+        // 1 year celebrations - confetti on page load --  ends
+
+
         // hero image slide show starts
         // List of image paths
         const images = [
@@ -389,6 +436,7 @@ Must visit 😋😋"
         }
     </script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
 
 </body>
 </html>

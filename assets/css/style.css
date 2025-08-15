@@ -1711,8 +1711,16 @@ textarea.input-field {
 
 }
 
-
-
+/*-----------------------------------*\
+  #1 year celbration
+\*-----------------------------------*/
+div {
+  animation: pulse 1s infinite alternate;
+}
+@keyframes pulse {
+  0% { transform: scale(1); color: gold; }
+  100% { transform: scale(1.1); color: orange; }
+}
 
 
 /**
