@@ -126,100 +126,15 @@ Here, each plate tells a story. A story of tradition, passion, and the joy of sh
     </section>
 
     <!-- Menu & Daily Specials Section -->
-    <section id="menu" class="relative py-16 md:py-24 bg-white">
-        <div class="container mx-auto px-4 relative z-10">
-            <h2 class="text-4xl font-bold text-center mb-12 text-custom-red-800">Today's Specials!</h2>
-
-            <!-- Static Menu -->
-            <div class="bg-white-700 text-black rounded-lg shadow-xl p-8 mb-12">
-                <h3 class="text-3xl font-bold text-center mb-8">Full Menu</h3>
-
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Appetizers -->
-                    <div class="lg:border-r lg:border-red-200 pr-6">
-                        <h4 class="text-2xl font-semibold mb-4 border-b-2 border-white pb-2">Appetizers</h4>
-                        <ul class="space-y-4">
-                            <li>
-                                <div class="flex justify-between items-baseline">
-                                    <span class="font-medium text-lg">Sabudana Vada</span>
-                                    <span class="text-black-200">CHF 6.00</span>
-                                </div>
-                                <p class="text-sm text-black-300">Crisp fried snack made with tapioca pearls.</p>
-                            </li>
-                            <li>
-                                <div class="flex justify-between items-baseline">
-                                    <span class="font-medium text-lg">Aloo palak paratha</span>
-                                    <span class="text-black-200">CHF 4.00</span>
-                                </div>
-                                <p class="text-sm text-black-300">Flatbread with Potato and Spinach stuffing.</p>
-                            </li>
-                            <li>
-                                <div class="flex justify-between items-baseline">
-                                    <span class="font-medium text-lg">Samosa</span>
-                                    <span class="text-black-200">CHF 4.00</span>
-                                </div>
-                                <p class="text-sm text-black-300">A pocket of fried dough filled with spiced potato and peas.</p>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- Main Courses -->
-                    <div class="lg:border-r lg:border-red-200 pr-6">
-                        <h4 class="text-2xl font-semibold mb-4 border-b-2 border-white pb-2">Main Courses</h4>
-                        <ul class="space-y-4">
-                            <li>
-                                <div class="flex justify-between items-baseline">
-                                    <span class="font-medium text-lg">Signature Butter Chicken</span>
-                                    <span class="text-black-200">CHF 22.00</span>
-                                </div>
-                                <p class="text-sm text-black-300">Tender chicken in a rich, creamy tomato sauce.</p>
-                            </li>
-                            <li>
-                                <div class="flex justify-between items-baseline">
-                                    <span class="font-medium text-lg">Chicken Biryani</span>
-                                    <span class="text-black-200">CHF 22.00</span>
-                                </div>
-                                <p class="text-sm text-black-300">Aromatic chicken and rice dish flavoured with a combination of spices and herbs.</p>
-                            </li>
-                            <li>
-                                <div class="flex justify-between items-baseline">
-                                    <span class="font-medium text-lg">Baingan Bharta</span>
-                                    <span class="text-black-200">CHF 22.00</span>
-                                </div>
-                                <p class="text-sm text-black-300">Smoky eggplant mash mixed with a flavorful blend spices and tomatoes.</p>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- Desserts -->
-                    <div>
-                        <h4 class="text-2xl font-semibold mb-4 border-b-2 border-white pb-2">Desserts</h4>
-                        <ul class="space-y-4">
-                            <li>
-                                <div class="flex justify-between items-baseline">
-                                    <span class="font-medium text-lg">Mango Kulfi</span>
-                                    <span class="text-black-200">CHF 5.00</span>
-                                </div>
-                                <p class="text-sm text-black-300">Traditional Indian ice cream with mango.</p>
-                            </li>
-                            <li>
-                                <div class="flex justify-between items-baseline">
-                                    <span class="font-medium text-lg">Gulab Jamun</span>
-                                    <span class="text-black-200">CHF 5.00</span>
-                                </div>
-                                <p class="text-sm text-black-300">Deep purple colour berries made with milk.</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <p class="mt-8 text-sm opacity-80 flex justify-center items-center text-center">
+    <section id="menu" class="relative py-16 md:py-24 bg-white"></section>
+    <div class="container mx-auto px-4 text-center mb-12">
+        <h2 class="text-4xl font-bold text-center mb-12 text-custom-red-800">Today's Specials!</h2>
+        <div id="dynamicMenu" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+     </div>
+                     <p class="mt-8 text-sm opacity-80 flex justify-center items-center text-center">
                 <i class="fas fa-info-circle mr-2"></i>
                 Menu is updated daily. Please check back for new delights!
                 </p>
-
-            </div>
-        </div>
     </section>
 
     <!-- Gallery/Recipes Section -->
@@ -318,6 +233,10 @@ Must visit 😋😋"
         </div>
     </footer>
 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="./assets/js/configLoader.js"></script>
+    <script src="./assets/js/loadMenu.js"></script>
     <script>
 
         // 1 year celebrations - confetti on page load --  starts
@@ -354,6 +273,12 @@ Must visit 😋😋"
             setInterval(runConfetti, 6000);
         };
         // 1 year celebrations - confetti on page load --  ends
+
+        //*** ---------------------------------------------- ***
+        //*** dynamic menu from google sheets --  starts
+        //*** ---------------------------------------------- ***
+        initMenu();
+        // dynamic menu from google sheets --  ends ****
 
 
         // hero image slide show starts
@@ -435,8 +360,7 @@ Must visit 😋😋"
             });
         }
     </script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
 
 </body>
 </html>
