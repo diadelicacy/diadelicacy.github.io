@@ -14,10 +14,10 @@ async function initMenu() {
     const [headers, ...items] = rows;
     const grouped = {};
     items.forEach(row => {
-      const [active, category, name, price, desc] = row;
+      const [active, category, name, price, dietary, desc] = row;
       if (active === true || active === "TRUE") {
         if (!grouped[category]) grouped[category] = [];
-        grouped[category].push({ name, price, desc });
+        grouped[category].push({ name, price, dietary, desc });
       }
     });
 
@@ -36,10 +36,23 @@ async function initMenu() {
       ul.className = 'space-y-4';
 
       grouped[category].forEach(item => {
+
+        // Determine dietary icons
+        let dietaryIcons = '';
+        if (item.dietary) {
+          const diets = item.dietary.toLowerCase().split(',').map(d => d.trim());
+          if (diets.includes('vegan')) {
+            dietaryIcons += '<i class="fas fa-leaf text-green-600 ml-2"></i>';
+          }
+          if (diets.includes('vegetarian')) {
+            dietaryIcons += '<i class="fas fa-seedling text-green-800 ml-2"></i>';
+          }
+        }
+
         const li = document.createElement('li');
         li.innerHTML = `
           <div class="flex justify-between items-baseline">
-              <span class="font-medium text-lg">${item.name}</span>
+              <span class="font-medium text-lg">${item.name} ${dietaryIcons}</span>
               <span class="text-black-200">${item.price}</span>
           </div>
           <p class="text-sm text-black-300 text-left mt-1">${item.desc}</p>
