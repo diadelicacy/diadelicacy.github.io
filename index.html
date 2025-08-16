@@ -93,7 +93,11 @@
                     class="w-full h-64 object-cover rounded-lg shadow-xl">
             </div>
 
+    <!-- display cafe status if defined in sheets  -->      
+    <div id="cafeStatus"></div>
 
+
+  
     <div class="flex items-center justify-center py-20 relative overflow-hidden">
     <div class="text-center text-3xl font-bold text-custom-red-800 z-10">
         🎉 We’re 1 Year Old! 🎉
@@ -236,6 +240,7 @@ Must visit 😋😋"
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
     <script src="./assets/js/configLoader.js"></script>
+    <script src="./assets/js/loadStatus.js"></script>
     <script src="./assets/js/loadMenu.js"></script>
     <script>
 
@@ -274,12 +279,9 @@ Must visit 😋😋"
         };
         // 1 year celebrations - confetti on page load --  ends
 
-        //*** ---------------------------------------------- ***
-        //*** dynamic menu from google sheets --  starts
-        //*** ---------------------------------------------- ***
+        //load status & dynamic menu from google sheets
+        initStatus();
         initMenu();
-        // dynamic menu from google sheets --  ends ****
-
 
         // hero image slide show starts
         // List of image paths

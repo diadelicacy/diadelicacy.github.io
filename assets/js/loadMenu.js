@@ -14,9 +14,11 @@ async function initMenu() {
     const [headers, ...items] = rows;
     const grouped = {};
     items.forEach(row => {
-      const [category, name, price, desc] = row;
-      if (!grouped[category]) grouped[category] = [];
-      grouped[category].push({ name, price, desc });
+      const [active, category, name, price, desc] = row;
+      if (active === true || active === "TRUE") {
+        if (!grouped[category]) grouped[category] = [];
+        grouped[category].push({ name, price, desc });
+      }
     });
 
     const container = document.getElementById('dynamicMenu');
