@@ -1,0 +1,394 @@
+[
+  {
+    "Active": true,
+    "Category": "Appetizers",
+    "Item Name": "Sabudana Vada",
+    "Price": 6,
+    "Dietary": "vegetarian",
+    "Description": "Crisp fried snack made with tapioca pearls."
+  },
+  {
+    "Active": true,
+    "Category": "Appetizers",
+    "Item Name": "Aloo Palak Paratha",
+    "Price": 4,
+    "Dietary": "vegetarian",
+    "Description": "Flatbread with Potato and Spinach stuffing."
+  },
+  {
+    "Active": true,
+    "Category": "Main Courses",
+    "Item Name": "Signature Butter Chicken",
+    "Price": 22,
+    "Dietary": "",
+    "Description": "Tender chicken in creamy tomato sauce."
+  },
+  {
+    "Active": true,
+    "Category": "Main Courses",
+    "Item Name": "Chicken Biryani",
+    "Price": 22,
+    "Dietary": "",
+    "Description": "Aromatic chicken and rice dish flavoured with a combination of spices and herbs.\n\n"
+  },
+  {
+    "Active": true,
+    "Category": "Main Courses",
+    "Item Name": "Baingan Bharta",
+    "Price": 22,
+    "Dietary": "vegetarian, vegan",
+    "Description": "Smoky eggplant mash mixed with a flavorful blend spices and tomatoes.\n\n"
+  },
+  {
+    "Active": true,
+    "Category": "Desserts",
+    "Item Name": "Mango Kulfi\n",
+    "Price": 5,
+    "Dietary": "",
+    "Description": "Traditional Indian ice cream with mango.\n\n"
+  },
+  {
+    "Active": true,
+    "Category": "Desserts",
+    "Item Name": "Gulab Jamun",
+    "Price": 5,
+    "Dietary": "vegetarian",
+    "Description": "Deep purple colour berries made with milk."
+  },
+  {
+    "Active": true,
+    "Category": "Desserts",
+    "Item Name": "Moong Dal Halwa",
+    "Price": 5.5,
+    "Dietary": "vegetarian, vegan",
+    "Description": "Aromatic sweet dish with split yellow moong lentils, sugar and ghee."
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  },
+  {
+    "Active": false,
+    "Category": "",
+    "Item Name": "",
+    "Price": "",
+    "Dietary": "",
+    "Description": ""
+  }
+]
