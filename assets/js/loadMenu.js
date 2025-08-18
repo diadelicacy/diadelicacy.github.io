@@ -13,19 +13,24 @@ async function loadMenu(configItems) {
 
   // Default to today's date
   let menuDate = getTodayDate();
+
+  if (Array.isArray(configItems) && configItems.length > 0) {
    for (const config of configItems) {
       if (config.key === 'Custom_Menu_Date' && config.value) {
         menuDate = config.value;
         break;
       }
     }
+  }
   // Set the menu date        
   menuHeading.textContent = `Menu for ${menuDate}`;
 
   try {
 
-    // Fetch data from the JSON file
-    const response = await fetch('./data/Menu.json');
+    // Fetch data from the JSON file, Append a timestamp to avoid cache
+    const response = await fetch(`./data/Menu.json?nocache=${Date.now()}`, {
+      cache: "no-store"
+    });
 
     if (!response.ok) {
       throw new Error(`Failed to fetch from ./data/Menu.json: ${response.statusText}`);

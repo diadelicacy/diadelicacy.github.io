@@ -2,8 +2,12 @@
 async function readConfig() {
   let configItems = [];  // initialize array
   try {
-    // Fetch data from the JSON file
-    const response = await fetch('./data/Config.json');
+    
+    // Fetch data from the JSON file, Append a timestamp to avoid cache
+    const response = await fetch(`./data/Config.json?nocache=${Date.now()}`, {
+      cache: "no-store"
+    });
+
 
     if (!response.ok) {
       throw new Error(`Failed to fetch from ./data/Config.json: ${response.statusText}`);
@@ -12,7 +16,7 @@ async function readConfig() {
      const data = await response.json();
 
      if (!Array.isArray(data) || data.length === 0) {
-      console.warn("Config data is empty or malformed.");
+      console.debug("Config data is empty or malformed.");
       return;
     }
 

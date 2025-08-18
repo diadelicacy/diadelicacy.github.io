@@ -1,5 +1,11 @@
 // loadStatus.js
 async function loadStatus(configItems) {
+
+  if (!Array.isArray(configItems) || configItems.length === 0) {
+    console.debug("No config items to load");
+    return;
+  }
+
   try {
 
     for (const config of configItems) {
