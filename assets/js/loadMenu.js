@@ -1,27 +1,83 @@
 // loadMenu.js
-async function initMenu() {
-  try {
-    const { apiKey, spreadsheetId, rangeMenu } = await loadConfig();
-    const gUrl = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${rangeMenu}?key=${apiKey}`;
+async function loadMenu(configItems) {
 
-    const response = await fetch(gUrl);
-    if (!response.ok) throw new Error('Failed to fetch Google Sheets data');
+  function getTodayDate() {
+        const today = new Date();
+        const day = String(today.getDate()).padStart(2, '0');
+        const month = String(today.getMonth() + 1).padStart(2, '0'); // months are 0-indexed
+        const year = today.getFullYear();
+        return `${day}.${month}.${year}`;
+  }
+
+  const menuHeading = document.getElementById('menuHeading');
+
+  // Default to today's date
+  let menuDate = getTodayDate();
+   for (const config of configItems) {
+      if (config.key === 'Custom_Menu_Date' && config.value) {
+        menuDate = config.value;
+        break;
+      }
+    }
+  // Set the menu date        
+  menuHeading.textContent = `Menu for ${menuDate}`;
+
+  try {
+
+    // Fetch data from the JSON file
+    const response = await fetch('./data/Menu.json');
+
+    if (!response.ok) {
+      throw new Error(`Failed to fetch from ./data/Menu.json: ${response.statusText}`);
+    }
+
     const data = await response.json();
 
-    const rows = data.values;
-    if (!rows || rows.length < 2) return;
+    if (!Array.isArray(data) || data.length === 0) {
+      console.warn("Menu data is empty or malformed.");
+      return;
+    }
 
-    const [headers, ...items] = rows;
+    // Extract headers from keys of the first object
+    const headers = Object.keys(data[0]).map(h => h.toLowerCase().trim());
+    const items = data;
+
+    // Group items by category
     const grouped = {};
-    items.forEach(row => {
-      const [active, category, name, price, dietary, desc] = row;
-      if (active === true || active === "TRUE") {
-        if (!grouped[category]) grouped[category] = [];
+
+    items.forEach(rowData => {
+      // Normalize keys to lowercase for consistency
+      const row = {};
+      Object.entries(rowData).forEach(([key, value]) => {
+      row[key.toLowerCase().trim()] = value;
+    });
+
+    // Access properties by their lowercase, trimmed header names
+    const active = row.active;
+    const category = row.category;
+    const name = row.name;
+    const price = row.price;
+    const dietary = row.dietary;
+    const desc = row.description;
+
+    // Filter based on the 'active' column, converting to string and comparing case-insensitively
+      if (active !== undefined && String(active).toLowerCase() === "true") {
+        if (!grouped[category]) {
+          grouped[category] = [];
+        }
         grouped[category].push({ name, price, dietary, desc });
       }
     });
 
     const container = document.getElementById('dynamicMenu');
+
+    if (!container) {
+      console.error("Container element with ID 'dynamicMenu' not found.");
+      return;
+    }
+
+    // Clear existing content in the container before appending new elements
+    container.innerHTML = '';
 
     for (const category in grouped) {
       const section = document.createElement('div');
@@ -40,7 +96,7 @@ async function initMenu() {
         // Determine dietary icons
         let dietaryIcons = '';
         if (item.dietary) {
-          const diets = item.dietary.toLowerCase().split(',').map(d => d.trim());
+          const diets = String(item.dietary).toLowerCase().split(',').map(d => d.trim());
           if (diets.includes('vegan')) {
             dietaryIcons += '<i class="fas fa-leaf text-green-600 ml-2"></i>';
           }
@@ -53,7 +109,7 @@ async function initMenu() {
         li.innerHTML = `
           <div class="flex justify-between items-baseline">
               <span class="font-medium text-lg">${item.name} ${dietaryIcons}</span>
-              <span class="text-black-200">${item.price}</span>
+              <span class="text-black-200">CHF ${Number(item.price).toFixed(2)}</span>
           </div>
           <p class="text-sm text-black-300 text-left mt-1">${item.desc}</p>
         `;
@@ -64,7 +120,7 @@ async function initMenu() {
       container.appendChild(section);
     }
   } catch (err) {
-    console.error(err);
+    console.error("Error initializing menu:", err);
   }
 }
 

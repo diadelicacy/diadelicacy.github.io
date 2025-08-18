@@ -133,7 +133,7 @@ Here, each plate tells a story. A story of tradition, passion, and the joy of sh
     <!-- Menu & Daily Specials Section -->
     <section id="menu" class="relative py-16 md:py-24 bg-white"></section>
     <div class="container mx-auto px-4 text-center mb-12">
-        <h2 class="text-4xl font-bold text-center mb-12 text-custom-red-800">Today's Specials!</h2>
+        <h2 id="menuHeading" class="text-4xl font-bold text-center mb-12 text-custom-red-800"></h2>
         <div id="dynamicMenu" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
         <p class="flex items-center text-green-600 text-sm space-x-2 mt-6">
             <i class="fas fa-leaf"></i>
@@ -249,10 +249,18 @@ Must visit 😋😋"
 
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
-    <script src="./assets/js/configLoader.js"></script>
+    <script src="./assets/js/readConfig.js"></script>
     <script src="./assets/js/loadStatus.js"></script>
     <script src="./assets/js/loadMenu.js"></script>
     <script>
+    async function init() {
+        let configItems = await readConfig(); // wait for async function to finish
+        loadStatus(configItems);
+        loadMenu(configItems);
+    }
+
+    init();
+
 
         // 1 year celebrations - confetti on page load --  starts
         window.onload = function () {
@@ -288,10 +296,6 @@ Must visit 😋😋"
             setInterval(runConfetti, 6000);
         };
         // 1 year celebrations - confetti on page load --  ends
-
-        //load status & dynamic menu from google sheets
-        initStatus();
-        initMenu();
 
         // hero image slide show starts
         // List of image paths
