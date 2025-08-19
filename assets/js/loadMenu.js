@@ -101,7 +101,7 @@ async function loadMenu(configItems) {
         // Determine dietary icons
         let dietaryIcons = '';
         if (item.dietary) {
-          console.log(`Dietary options for ${item.name}:`, diets);
+          const diets = String(item.dietary).toUpperCase().split(',').map(d => d.trim());
           if (diets.includes('V')) {
             dietaryIcons += '<i class="fas fa-leaf text-green-600 ml-2"></i>';
           }
