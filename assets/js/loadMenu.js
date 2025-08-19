@@ -101,11 +101,11 @@ async function loadMenu(configItems) {
         // Determine dietary icons
         let dietaryIcons = '';
         if (item.dietary) {
-          const diets = String(item.dietary).toLowerCase().split(',').map(d => d.trim());
-          if (diets.includes('vegan')) {
+          console.log(`Dietary options for ${item.name}:`, diets);
+          if (diets.includes('V')) {
             dietaryIcons += '<i class="fas fa-leaf text-green-600 ml-2"></i>';
           }
-          if (diets.includes('vegetarian')) {
+          if (diets.includes('VEG')) {
             dietaryIcons += '<i class="fas fa-seedling text-green-800 ml-2"></i>';
           }
         }
