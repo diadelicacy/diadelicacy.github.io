@@ -4,8 +4,32 @@
     "Category": "Appetizers",
     "Name": "Aloo Palak Paratha",
     "Price": 4,
-    "Dietary": "vegetarian",
+    "Dietary": "VEG",
     "Description": "Flatbread with Potato and Spinach stuffing."
+  },
+  {
+    "Active": true,
+    "Category": "Main Courses",
+    "Name": "Signature Butter Chicken",
+    "Price": 22,
+    "Dietary": "",
+    "Description": "Tender chicken in creamy tomato sauce."
+  },
+  {
+    "Active": true,
+    "Category": "Main Courses",
+    "Name": "Chicken Biryani",
+    "Price": 22,
+    "Dietary": "",
+    "Description": "Aromatic chicken and rice dish flavoured with a combination of spices and herbs.\n\n"
+  },
+  {
+    "Active": true,
+    "Category": "Main Courses",
+    "Name": "Baingan Bharta",
+    "Price": 22,
+    "Dietary": "V, VEG",
+    "Description": "Smoky eggplant mash mixed with a flavorful blend spices and tomatoes.\n\n"
   },
   {
     "Active": true,
@@ -18,9 +42,9 @@
   {
     "Active": true,
     "Category": "Desserts",
-    "Name": "Gulab Jamun",
-    "Price": 5,
-    "Dietary": "vegetarian",
-    "Description": "Deep purple colour berries made with milk."
+    "Name": "Moong Dal Halwa",
+    "Price": 5.5,
+    "Dietary": "V, VEG",
+    "Description": "Aromatic sweet dish with split yellow moong lentils, sugar and ghee."
   }
 ]
