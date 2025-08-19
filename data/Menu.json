@@ -46,5 +46,13 @@
     "Price": 5,
     "Dietary": "VEG",
     "Description": "Deep purple colour berries made with milk."
+  },
+  {
+    "Active": true,
+    "Category": "Desserts",
+    "Name": "Moong Dal Halwa",
+    "Price": 5.5,
+    "Dietary": "V, VEG",
+    "Description": "Aromatic sweet dish with split yellow moong lentils, sugar and ghee."
   }
 ]
