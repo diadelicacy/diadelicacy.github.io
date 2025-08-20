@@ -167,42 +167,42 @@ Here, each plate tells a story. A story of tradition, passion, and the joy of sh
           <div class="p-6">
     <!-- Gallery Grid stars -->
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-12" id="gallery-previews">
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-12" id="gallery-previews">
     <img src="./assets/images/food_biryani.avif" alt="Dish 1" class="rounded-lg shadow-md object-cover w-full h-80 transform transition duration-300 hover:scale-105 gallery-item">
     <img src="./assets/images/food_baking_cake1.jpeg" alt="Dish 2" class="rounded-lg shadow-md object-cover w-full h-80 transform transition duration-300 hover:scale-105 gallery-item">
     <img src="./assets/images/food_catering2.jpg" alt="Dish 3" class="rounded-lg shadow-md object-cover w-full h-80 transform transition duration-300 hover:scale-105 gallery-item">
-    </div>
+</div>
 
-    <p class="text-lg font-semibold text-center mb-6">
-        Traditional Treats, Baked Delights, and Catering Services
-    </p>
-    <div class="mt-12 text-center">
-        <button id="explore-gallery" class="bg-red-100 inline-block text-black hover:bg-red-200 font-semibold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
-            Explore Our Gallery
+<p class="text-lg font-semibold text-center mb-6">
+    Traditional Treats, Baked Delights, and Catering Services
+</p>
+<div class="mt-12 text-center">
+    <button id="explore-gallery" class="bg-red-100 inline-block text-black hover:bg-red-200 font-semibold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+        Explore Our Gallery
+    </button>
+</div>
+
+<div id="modal" class="hidden fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50">
+    <div class="relative flex justify-center items-start mt-12 md:mt-20">
+        <button id="close-modal" 
+            class="absolute top-[-1.5rem] right-[-1.5rem] text-white text-3xl font-bold bg-black bg-opacity-50 rounded-full w-10 h-10 flex items-center justify-center hover:bg-opacity-70 transition z-[60]">
+            &times;
+        </button>
+
+        <button id="prev-btn" 
+            class="absolute left-[-3rem] top-1/2 transform -translate-y-1/2 text-white text-4xl font-bold bg-black bg-opacity-50 rounded-full w-10 h-10 flex items-center justify-center hover:bg-opacity-70 transition">
+            &#10094;
+        </button>
+
+        <img id="modal-img" src="" alt="Modal Image" 
+            class="max-h-[80vh] max-w-[80vw] rounded-lg shadow-lg object-contain">
+
+        <button id="next-btn" 
+            class="absolute right-[-3rem] top-1/2 transform -translate-y-1/2 text-white text-4xl font-bold bg-black bg-opacity-50 rounded-full w-10 h-10 flex items-center justify-center hover:bg-opacity-70 transition">
+            &#10095;
         </button>
     </div>
-
-    <div id="modal" class="hidden fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50">
-        <div class="relative flex justify-center items-center">
-            <button id="close-modal" 
-                class="absolute top-[-1.5rem] right-[-1.5rem] text-white text-3xl font-bold bg-black bg-opacity-50 rounded-full w-10 h-10 flex items-center justify-center hover:bg-opacity-70 transition z-[60]">
-                &times;
-            </button>
-
-            <button id="prev-btn" 
-                class="absolute left-[-3rem] top-1/2 transform -translate-y-1/2 text-white text-4xl font-bold bg-black bg-opacity-50 rounded-full w-10 h-10 flex items-center justify-center hover:bg-opacity-70 transition">
-                &#10094;
-            </button>
-
-            <img id="modal-img" src="" alt="Modal Image" 
-                class="max-h-[80vh] max-w-[80vw] rounded-lg shadow-lg object-contain">
-
-            <button id="next-btn" 
-                class="absolute right-[-3rem] top-1/2 transform -translate-y-1/2 text-white text-4xl font-bold bg-black bg-opacity-50 rounded-full w-10 h-10 flex items-center justify-center hover:bg-opacity-70 transition">
-                &#10095;
-            </button>
-        </div>
-    </div>
+</div>
     <!-- Gallery Grid ends -->
 
     </section>
