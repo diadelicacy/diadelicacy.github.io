@@ -67,7 +67,9 @@ document.addEventListener('DOMContentLoaded', function () {
     // Close modal
     closeModalBtn.addEventListener('click', closeModal);
     modal.addEventListener('click', (e) => {
-        if (e.target === modal) closeModal();
+        if (e.target === modal) {
+            closeModal();
+        }
     });
 
     // Navigation buttons
