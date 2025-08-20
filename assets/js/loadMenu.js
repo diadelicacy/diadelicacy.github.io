@@ -150,7 +150,6 @@ async function loadMenu(configItems) {
           </span>
         </div>
         <p class="text-sm text-black-300 text-left mt-1">${item.desc}</p>
-          <p class="text-sm text-black-300 text-left mt-1">${item.desc}</p>
         `;
         ul.appendChild(li);
       });

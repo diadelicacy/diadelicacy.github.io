@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const nextBtn = document.getElementById('next-btn');
     const exploreBtn = document.getElementById('explore-gallery');
 
-    // --- All images including the ones not in preview ---
+    // All images
     const imageUrls = [
         './assets/images/food_biryani.avif',
         './assets/images/food_baking_cake1.jpeg',
@@ -50,21 +50,19 @@ document.addEventListener('DOMContentLoaded', function () {
         modalImg.alt = `Image ${currentIndex + 1}`;
     }
 
-    // --- Event Listeners ---
-
-    // Click preview images
+    // Event Listeners
     galleryItems.forEach((item, index) => {
         item.addEventListener('click', () => {
             openModal(index);
         });
     });
 
-    // Explore gallery button opens modal at first image (or index 3 to skip previews)
     exploreBtn.addEventListener('click', () => {
+        // Open modal with the first image in the full list
         openModal(0);
     });
 
-    // Close modal
+    // Close modal when close button or overlay is clicked
     closeModalBtn.addEventListener('click', closeModal);
     modal.addEventListener('click', (e) => {
         if (e.target === modal) {
