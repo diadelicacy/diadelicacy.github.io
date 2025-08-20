@@ -50,6 +50,8 @@ document.addEventListener('DOMContentLoaded', function () {
         modalImg.alt = `Image ${currentIndex + 1}`;
     }
 
+    // --- Event Listeners ---
+
     // Click preview images
     galleryItems.forEach((item, index) => {
         item.addEventListener('click', () => {
@@ -57,24 +59,22 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // Explore gallery button opens modal at first image (or index 3 if you want to skip previews)
+    // Explore gallery button opens modal at first image (or index 3 to skip previews)
     exploreBtn.addEventListener('click', () => {
-        openModal(0); // change 0 → 3 to start from image after previews
+        openModal(0);
     });
 
     // Close modal
     closeModalBtn.addEventListener('click', closeModal);
     modal.addEventListener('click', (e) => {
-        if (e.target === modal || e.target !== modalImg) {
-            closeModal();
-        }
+        if (e.target === modal) closeModal();
     });
 
     // Navigation buttons
     nextBtn.addEventListener('click', showNextImage);
     prevBtn.addEventListener('click', showPrevImage);
 
-    // Keyboard
+    // Keyboard navigation
     document.addEventListener('keydown', (e) => {
         if (!modal.classList.contains('hidden')) {
             if (e.key === 'ArrowRight') showNextImage();
