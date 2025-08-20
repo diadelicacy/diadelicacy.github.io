@@ -61,7 +61,8 @@ async function loadMenu(configItems) {
     const active = row.active;
     const category = row.category;
     const name = row.name;
-    const price = row.price;
+    const t_price = row.t_price;
+    const d_price = row.d_price;
     const dietary = row.dietary;
     const desc = row.description;
 
@@ -70,7 +71,7 @@ async function loadMenu(configItems) {
         if (!grouped[category]) {
           grouped[category] = [];
         }
-        grouped[category].push({ name, price, dietary, desc });
+        grouped[category].push({ name, t_price, d_price, dietary, desc });
       }
     });
 
@@ -88,10 +89,25 @@ async function loadMenu(configItems) {
       const section = document.createElement('div');
       section.classList.add('lg:border-r', 'lg:border-red-200', 'pr-6');
 
-      const header = document.createElement('h4');
-      header.className = 'text-2xl font-semibold mb-4 border-b-2 border-white pb-2 text-left';
-      header.textContent = category;
-      section.appendChild(header);
+      const headerContainer = document.createElement('h4');
+      headerContainer.className = 'flex justify-between items-center mb-4 border-b-2 border-white pb-2';
+
+      const headerText = document.createElement('h4');
+      headerText.className = 'text-2xl font-semibold text-left';
+      headerText.textContent = category;
+
+      const headerIcons = document.createElement('span');
+      headerContainer.className = 'flex justify-between items-center ...';
+
+        headerIcons.innerHTML = `
+          <i class="fa-solid fa-bag-shopping text-gray-600 ml-2" title="Takeaway"></i>
+             <span class="text-red-200 font-bold mx-3">/</span> 
+          <i class="fas fa-utensils text-gray-800 ml-2" title="Dine-in"></i>
+        `;
+
+      headerContainer.appendChild(headerText);
+      headerContainer.appendChild(headerIcons);
+      section.appendChild(headerContainer);
 
       const ul = document.createElement('ul');
       ul.className = 'space-y-4';
@@ -112,10 +128,28 @@ async function loadMenu(configItems) {
 
         const li = document.createElement('li');
         li.innerHTML = `
-          <div class="flex justify-between items-baseline">
-              <span class="font-medium text-lg">${item.name} ${dietaryIcons}</span>
-              <span class="text-black-200">CHF ${Number(item.price).toFixed(2)}</span>
-          </div>
+        <div class="flex justify-between items-baseline">
+          <span class="font-medium text-lg">
+            ${item.name} ${dietaryIcons}
+          </span>
+          <span class="text-black-200">
+            CHF 
+            <span class="text-lg font-medium text-gray-600">
+              ${Math.floor(item.t_price)}
+            </span>
+            <span class="text-xs align-top text-gray-600">
+              .${String(item.t_price.toFixed(2)).split('.')[1]}
+            </span>
+             <span class="text-red-200 font-bold px-1">/</span> 
+            <span class="text-lg font-medium text-black">
+              ${Math.floor(item.d_price)}
+            </span>
+            <span class="text-xs align-top text-black">
+              .${String(item.d_price.toFixed(2)).split('.')[1]}
+            </span>
+          </span>
+        </div>
+        <p class="text-sm text-black-300 text-left mt-1">${item.desc}</p>
           <p class="text-sm text-black-300 text-left mt-1">${item.desc}</p>
         `;
         ul.appendChild(li);

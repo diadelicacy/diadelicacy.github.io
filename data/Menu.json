@@ -3,56 +3,70 @@
     "Active": true,
     "Category": "Appetizers",
     "Name": "Aloo Palak Paratha",
-    "Price": 4,
+    "T_Price": 4,
+    "D_Price": 5,
     "Dietary": "VEG",
-    "Description": "Flatbread with Potato and Spinach stuffing."
+    "Description": "Flatbread with Potato and Spinach stuffing.",
+    "ID": 2
   },
   {
     "Active": true,
     "Category": "Main Courses",
     "Name": "Signature Butter Chicken",
-    "Price": 22,
+    "T_Price": 20,
+    "D_Price": 22,
     "Dietary": "",
-    "Description": "Tender chicken in creamy tomato sauce."
+    "Description": "Tender chicken in creamy tomato sauce.",
+    "ID": 3
   },
   {
     "Active": true,
     "Category": "Main Courses",
     "Name": "Chicken Biryani",
-    "Price": 22,
+    "T_Price": 20,
+    "D_Price": 22,
     "Dietary": "",
-    "Description": "Aromatic chicken and rice dish flavoured with a combination of spices and herbs.\n\n"
+    "Description": "Aromatic chicken and rice dish flavoured with a combination of spices and herbs.\n\n",
+    "ID": 4
   },
   {
     "Active": true,
     "Category": "Main Courses",
     "Name": "Baingan Bharta",
-    "Price": 22,
+    "T_Price": 20,
+    "D_Price": 22,
     "Dietary": "V, VEG",
-    "Description": "Smoky eggplant mash mixed with a flavorful blend spices and tomatoes.\n\n"
+    "Description": "Smoky eggplant mash mixed with a flavorful blend spices and tomatoes.\n\n",
+    "ID": 5
   },
   {
     "Active": true,
     "Category": "Desserts",
     "Name": "Mango Kulfi\n",
-    "Price": 5,
+    "T_Price": 5,
+    "D_Price": 5,
     "Dietary": "",
-    "Description": "Traditional Indian ice cream with mango.\n\n"
+    "Description": "Traditional Indian ice cream with mango.\n\n",
+    "ID": 6
   },
   {
     "Active": true,
     "Category": "Desserts",
     "Name": "Gulab Jamun",
-    "Price": 5,
+    "T_Price": 5,
+    "D_Price": 5,
     "Dietary": "VEG",
-    "Description": "Deep purple colour berries made with milk."
+    "Description": "Deep purple colour berries made with milk.",
+    "ID": 7
   },
   {
     "Active": true,
     "Category": "Desserts",
     "Name": "Moong Dal Halwa",
-    "Price": 5.5,
+    "T_Price": 5,
+    "D_Price": 5.5,
     "Dietary": "V, VEG",
-    "Description": "Aromatic sweet dish with split yellow moong lentils, sugar and ghee."
+    "Description": "Aromatic sweet dish with split yellow moong lentils, sugar and ghee.",
+    "ID": 8
   }
 ]
