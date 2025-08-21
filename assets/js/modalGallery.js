@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // All images
     const imageUrls = [
-        './assets/images/food_biryani.avif',
+        './assets/images/food_biryani.jpg',
         './assets/images/food_baking_cake1.jpeg',
         './assets/images/food_catering2.jpg',
         './assets/images/food_vadapav.jpg',
