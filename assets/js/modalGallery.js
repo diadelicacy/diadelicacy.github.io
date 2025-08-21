@@ -6,11 +6,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const prevBtn = document.getElementById('prev-btn');
     const nextBtn = document.getElementById('next-btn');
     const exploreBtn = document.getElementById('explore-gallery');
+    const imageCounter = document.getElementById('image-counter');
 
-    // --- Get the new counter element ---
-    const imageCounter = document.getElementById('image-counter'); // <-- ADD THIS
-
-    // All images
+    // All images and their names
     const imageUrls = [
         './assets/images/food_biryani.jpg',
         './assets/images/food_baking_cake1.jpeg',
@@ -26,18 +24,32 @@ document.addEventListener('DOMContentLoaded', function () {
         './assets/images/food_catering3.jpg',
     ];
 
+    const imageNames = [
+        'Biryani',
+        'Chocolate Cake',
+        'Catering Service',
+        'Vada Pav',
+        'Indian Thali',
+        'Sabudana Vada',
+        'Kheema Pav',
+        'Butter Chicken',
+        'Pastry',
+        'Pastel Cake',
+        'Catering Setup',
+        'Catering Display',
+    ];
+
     let currentIndex = 0;
 
-    // --- function to update the counter ---
-    function updateCounter() { // <-- ADD THIS FUNCTION
+    function updateCounter() {
         const totalImages = imageUrls.length;
-        imageCounter.textContent = `${currentIndex + 1} / ${totalImages}`;
+        imageCounter.textContent = `${imageNames[currentIndex]} (${currentIndex + 1}/${totalImages})`;
     }
 
     function openModal(index) {
         currentIndex = index;
         modalImg.src = imageUrls[currentIndex];
-        modalImg.alt = `Image ${currentIndex + 1}`;
+        modalImg.alt = imageNames[currentIndex];
         modal.classList.remove('hidden');
         modal.classList.add('flex');
         updateCounter();
@@ -51,18 +63,18 @@ document.addEventListener('DOMContentLoaded', function () {
     function showNextImage() {
         currentIndex = (currentIndex + 1) % imageUrls.length;
         modalImg.src = imageUrls[currentIndex];
-        modalImg.alt = `Image ${currentIndex + 1}`;
-        updateCounter(); // <-- Update counter when changing image
+        modalImg.alt = imageNames[currentIndex];
+        updateCounter();
     }
 
     function showPrevImage() {
         currentIndex = (currentIndex - 1 + imageUrls.length) % imageUrls.length;
         modalImg.src = imageUrls[currentIndex];
-        modalImg.alt = `Image ${currentIndex + 1}`;
+        modalImg.alt = imageNames[currentIndex];
         updateCounter();
     }
 
-    // Event Listeners
+    // --- Event Listeners ---
     galleryItems.forEach((item, index) => {
         item.addEventListener('click', () => {
             openModal(index);
@@ -70,11 +82,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     exploreBtn.addEventListener('click', () => {
-        // Open modal with the first image in the full list
         openModal(0);
     });
 
-    // Close modal when close button or overlay is clicked
     closeModalBtn.addEventListener('click', closeModal);
     modal.addEventListener('click', (e) => {
         if (e.target === modal) {
@@ -82,7 +92,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // Navigation buttons
     nextBtn.addEventListener('click', showNextImage);
     prevBtn.addEventListener('click', showPrevImage);
 
@@ -92,6 +101,33 @@ document.addEventListener('DOMContentLoaded', function () {
             if (e.key === 'ArrowRight') showNextImage();
             else if (e.key === 'ArrowLeft') showPrevImage();
             else if (e.key === 'Escape') closeModal();
+        }
+    });
+
+    // --- Swipe Navigation for mobile/tablet ---
+    let startX;
+    const swipeThreshold = 50;
+
+    modalImg.addEventListener('touchstart', (e) => {
+        startX = e.touches[0].clientX;
+    });
+
+    modalImg.addEventListener('touchmove', (e) => {
+        e.preventDefault(); // Prevent scrolling while swiping
+    });
+
+    modalImg.addEventListener('touchend', (e) => {
+        const endX = e.changedTouches[0].clientX;
+        const diff = startX - endX;
+
+        if (Math.abs(diff) > swipeThreshold) {
+            if (diff > 0) {
+                // Swiped left
+                showNextImage();
+            } else {
+                // Swiped right
+                showPrevImage();
+            }
         }
     });
 });
