@@ -182,27 +182,46 @@ Here, each plate tells a story. A story of tradition, passion, and the joy of sh
         </button>
     </div>
 
-    <div id="modal" class="hidden fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50">
-        <div class="relative flex justify-center items-center w-[800px] h-[600px] bg-black">
+    <div id="modal" 
+        class="hidden fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50">
+        <div class="relative flex justify-center items-center 
+                    w-[90vw] max-w-[800px] h-[80vh] max-h-[600px] bg-black rounded-lg">
+
+            <!-- Close button -->
             <button id="close-modal" 
-                class="absolute top-[-1.5rem] right-[-1.5rem] text-white text-3xl font-bold bg-black bg-opacity-20 rounded-full w-14 h-14 flex items-center justify-center hover:bg-opacity-30 transition z-[60]">
+                class="absolute -top-4 -right-4 text-white text-3xl font-bold 
+                    bg-black bg-opacity-40 rounded-full w-12 h-12 
+                    flex items-center justify-center hover:bg-opacity-60 transition z-[60]">
                 &times;
             </button>
 
+            <!-- Prev button -->
             <button id="prev-btn" 
-                class="absolute left-[-3rem] top-1/2 transform -translate-y-1/2 text-white text-4xl font-bold bg-black bg-opacity-10 rounded-full w-14 h-14 flex items-center justify-center hover:bg-opacity-20 transition">
+                class="absolute left-2 top-1/2 transform -translate-y-1/2 
+                    text-white text-4xl font-bold bg-black bg-opacity-30 
+                    rounded-full w-12 h-12 flex items-center justify-center 
+                    hover:bg-opacity-50 transition">
                 &#10094;
             </button>
 
+            <!-- Image -->
             <img id="modal-img" src="" alt="Modal Image" 
                 class="max-h-full max-w-full rounded-lg shadow-lg object-contain">
 
+            <!-- Next button -->
             <button id="next-btn" 
-                class="absolute right-[-3rem] top-1/2 transform -translate-y-1/2 text-white text-4xl font-bold bg-black bg-opacity-10 rounded-full w-14 h-14 flex items-center justify-center hover:bg-opacity-20 transition">
+                class="absolute right-2 top-1/2 transform -translate-y-1/2 
+                    text-white text-4xl font-bold bg-black bg-opacity-30 
+                    rounded-full w-12 h-12 flex items-center justify-center 
+                    hover:bg-opacity-50 transition">
                 &#10095;
             </button>
 
-            <div id="image-counter" class="absolute right-[-3rem] bottom-4 left-1/2 -translate-x-1/2 bg-black/20 text-white text-center text-sm px-3 py-1 rounded-full w-48">
+            <!-- Counter -->
+            <div id="image-counter" 
+                class="absolute bottom-4 left-1/2 -translate-x-1/2 
+                        bg-black/40 text-white text-center text-sm 
+                        px-3 py-1 rounded-full w-44">
             </div>
         </div>
     </div>
