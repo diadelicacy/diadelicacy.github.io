@@ -11,30 +11,31 @@ document.addEventListener('DOMContentLoaded', function () {
     // All images and their names
     const imageUrls = [
         './assets/images/food_biryani.jpg',
-        './assets/images/food_baking_cake1.jpeg',
-        './assets/images/food_catering2.jpg',
         './assets/images/food_vadapav.jpg',
         './assets/images/food_thali.jpg',
         './assets/images/food_sabudana_vada.jpg',
         './assets/images/food_kheemapav.jpg',
         './assets/images/food_butter_chicken.png',
         './assets/images/food_baking_pastry1.jpeg',
+        './assets/images/food_baking_cake1.jpeg',
         './assets/images/food_baking_cake2.jpg',
         './assets/images/food_catering1.jpg',
         './assets/images/food_catering3.jpg',
+        './assets/images/food_catering2.jpg',
+
     ];
 
     const imageNames = [
         'Biryani',
-        'Cake',
-        'Catering',
         'Vada Pav',
         'Indian Thali',
         'Sabudana Vada',
         'Kheema Pav',
         'Butter Chicken',
         'Pastry',
+        'Cake',
         'Anniversary Cake',
+        'Catering',
         'Catering',
         'Catering',
     ];
@@ -75,9 +76,18 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // --- Event Listeners ---
-    galleryItems.forEach((item, index) => {
+    galleryItems.forEach((item) => {
         item.addEventListener('click', () => {
-            openModal(index);
+            // Get the source of the clicked image
+            const clickedImageUrl = item.getAttribute('src');
+
+            // Find the index of this image in the main imageUrls array
+            const correctIndex = imageUrls.indexOf(clickedImageUrl);
+
+            // Open the modal with the correct index
+            if (correctIndex !== -1) {
+                openModal(correctIndex);
+            }
         });
     });
 
