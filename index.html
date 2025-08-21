@@ -185,12 +185,12 @@ Here, each plate tells a story. A story of tradition, passion, and the joy of sh
 <div id="modal" class="hidden fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50">
     <div class="relative flex justify-center items-start mt-12 md:mt-20">
         <button id="close-modal" 
-            class="absolute top-[-1.5rem] right-[-1.5rem] text-white text-3xl font-bold bg-black bg-opacity-50 rounded-full w-10 h-10 flex items-center justify-center hover:bg-opacity-70 transition z-[60]">
+            class="absolute top-[-1.5rem] right-[-1.5rem] text-white text-3xl font-bold bg-black bg-opacity-20 rounded-full w-10 h-10 flex items-center justify-center hover:bg-opacity-30 transition z-[60]">
             &times;
         </button>
 
         <button id="prev-btn" 
-            class="absolute left-[-3rem] top-1/2 transform -translate-y-1/2 text-white text-4xl font-bold bg-black bg-opacity-50 rounded-full w-10 h-10 flex items-center justify-center hover:bg-opacity-70 transition">
+            class="absolute left-[-3rem] top-1/2 transform -translate-y-1/2 text-white text-4xl font-bold bg-black bg-opacity-10 rounded-full w-14 h-14 flex items-center justify-center hover:bg-opacity-20 transition">
             &#10094;
         </button>
 
@@ -198,9 +198,12 @@ Here, each plate tells a story. A story of tradition, passion, and the joy of sh
             class="max-h-[80vh] max-w-[80vw] rounded-lg shadow-lg object-contain">
 
         <button id="next-btn" 
-            class="absolute right-[-3rem] top-1/2 transform -translate-y-1/2 text-white text-4xl font-bold bg-black bg-opacity-50 rounded-full w-10 h-10 flex items-center justify-center hover:bg-opacity-70 transition">
+            class="absolute right-[-3rem] top-1/2 transform -translate-y-1/2 text-white text-4xl font-bold bg-black bg-opacity-10 rounded-full w-14 h-14 flex items-center justify-center hover:bg-opacity-20 transition">
             &#10095;
         </button>
+
+        <div id="image-counter" class="absolute top-4 left-1/2 -translate-x-1/2 bg-black/50 bg-opacity-10 text-white text-sm px-3 py-1 rounded-full">
+        </div>
     </div>
 </div>
     <!-- Gallery Grid ends -->
@@ -333,7 +336,7 @@ Must visit 😋😋"
 
             // Run immediately, then every 5 seconds
             runConfetti();
-            setInterval(runConfetti, 6000);
+            //setInterval(runConfetti, 6000);
         };
         // 1 year celebrations - confetti on page load --  ends
 

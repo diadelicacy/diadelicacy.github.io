@@ -7,6 +7,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const nextBtn = document.getElementById('next-btn');
     const exploreBtn = document.getElementById('explore-gallery');
 
+    // --- Get the new counter element ---
+    const imageCounter = document.getElementById('image-counter'); // <-- ADD THIS
+
     // All images
     const imageUrls = [
         './assets/images/food_biryani.avif',
@@ -25,12 +28,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
     let currentIndex = 0;
 
+    // --- function to update the counter ---
+    function updateCounter() { // <-- ADD THIS FUNCTION
+        const totalImages = imageUrls.length;
+        imageCounter.textContent = `${currentIndex + 1} / ${totalImages}`;
+    }
+
     function openModal(index) {
         currentIndex = index;
         modalImg.src = imageUrls[currentIndex];
         modalImg.alt = `Image ${currentIndex + 1}`;
         modal.classList.remove('hidden');
         modal.classList.add('flex');
+        updateCounter();
     }
 
     function closeModal() {
@@ -42,12 +52,14 @@ document.addEventListener('DOMContentLoaded', function () {
         currentIndex = (currentIndex + 1) % imageUrls.length;
         modalImg.src = imageUrls[currentIndex];
         modalImg.alt = `Image ${currentIndex + 1}`;
+        updateCounter(); // <-- Update counter when changing image
     }
 
     function showPrevImage() {
         currentIndex = (currentIndex - 1 + imageUrls.length) % imageUrls.length;
         modalImg.src = imageUrls[currentIndex];
         modalImg.alt = `Image ${currentIndex + 1}`;
+        updateCounter();
     }
 
     // Event Listeners
