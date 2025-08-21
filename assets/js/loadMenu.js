@@ -11,17 +11,23 @@ async function loadMenu(configItems) {
 
   const menuHeading = document.getElementById('menuHeading');
 
-  // Default to today's date
-  let menuDate = getTodayDate();
+// Default to Auto_Menu_Date date
+let menuDate = getTodayDate(); // default, just in case
 
-  if (Array.isArray(configItems) && configItems.length > 0) {
-   for (const config of configItems) {
-      if (config.key === 'Custom_Menu_Date' && config.value) {
-        menuDate = config.value;
-        break;
-      }
+if (Array.isArray(configItems) && configItems.length > 0) {
+  // Find Custom_Menu_Date (if exists and has a value)
+  const customConfig = configItems.find(c => c.key === 'Custom_Menu_Date' && c.value);
+
+  if (customConfig) {
+    menuDate = customConfig.value;
+  } else {
+    // Otherwise, use Auto_Menu_Date (guaranteed to be present)
+    const autoConfig = configItems.find(c => c.key === 'Auto_Menu_Date');
+    if (autoConfig) {
+      menuDate = autoConfig.value;
     }
   }
+}
   // Set the menu date        
   menuHeading.textContent = `Menu for ${menuDate}`;
 
