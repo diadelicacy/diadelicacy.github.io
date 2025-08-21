@@ -26,17 +26,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const imageNames = [
         'Biryani',
-        'Chocolate Cake',
-        'Catering Service',
+        'Cake',
+        'Catering',
         'Vada Pav',
         'Indian Thali',
         'Sabudana Vada',
         'Kheema Pav',
         'Butter Chicken',
         'Pastry',
-        'Pastel Cake',
-        'Catering Setup',
-        'Catering Display',
+        'Anniversary Cake',
+        'Catering',
+        'Catering',
     ];
 
     let currentIndex = 0;
