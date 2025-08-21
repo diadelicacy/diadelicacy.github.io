@@ -105,28 +105,40 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // --- Swipe Navigation for mobile/tablet ---
-    let startX;
-    const swipeThreshold = 50;
+    let startX, startY;
+    const swipeThreshold = 50; // horizontal distance
+    const verticalSafeZone = 0.15; // 15% top & bottom reserved for closing
 
-    modalImg.addEventListener('touchstart', (e) => {
-        startX = e.touches[0].clientX;
+    modal.addEventListener('touchstart', (e) => {
+        const touch = e.touches[0];
+        startX = touch.clientX;
+        startY = touch.clientY;
     });
 
-    modalImg.addEventListener('touchmove', (e) => {
-        e.preventDefault(); // Prevent scrolling while swiping
-    });
+    modal.addEventListener('touchmove', (e) => {
+        e.preventDefault(); // Prevent scrolling while swiping inside modal
+    }, { passive: false });
 
-    modalImg.addEventListener('touchend', (e) => {
-        const endX = e.changedTouches[0].clientX;
-        const diff = startX - endX;
+    modal.addEventListener('touchend', (e) => {
+        const touch = e.changedTouches[0];
+        const endX = touch.clientX;
+        const endY = touch.clientY;
 
-        if (Math.abs(diff) > swipeThreshold) {
-            if (diff > 0) {
-                // Swiped left
-                showNextImage();
-            } else {
-                // Swiped right
-                showPrevImage();
+        const diffX = startX - endX;
+        const diffY = Math.abs(startY - endY);
+
+        const screenHeight = window.innerHeight;
+        const topZone = screenHeight * verticalSafeZone;
+        const bottomZone = screenHeight * (1 - verticalSafeZone);
+
+        // Only allow swipe in the middle 70% zone
+        if (startY > topZone && startY < bottomZone) {
+            if (Math.abs(diffX) > swipeThreshold && diffY < 100) {
+                if (diffX > 0) {
+                    showNextImage(); // Swipe left
+                } else {
+                    showPrevImage(); // Swipe right
+                }
             }
         }
     });
