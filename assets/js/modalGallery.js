@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const nextBtn = document.getElementById('next-btn');
     const exploreBtn = document.getElementById('explore-gallery');
     const imageCounter = document.getElementById('image-counter');
+    const heroHeader = document.getElementById('hero-header');
 
     // All images and their names
     const imageUrls = [
@@ -91,11 +92,15 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
+
+
+
     exploreBtn.addEventListener('click', () => {
         openModal(0);
     });
 
     closeModalBtn.addEventListener('click', closeModal);
+    heroHeader.addEventListener('click',closeModal);
     modal.addEventListener('click', (e) => {
         if (e.target === modal) {
             closeModal();
