@@ -2,6 +2,16 @@
   {
     "Active": true,
     "Category": "Appetizers",
+    "Name": "Sabudana Vada",
+    "T_Price": 6,
+    "D_Price": 7,
+    "Dietary": "VEG",
+    "Description": "Crisp fried snack made with tapioca pearls.",
+    "ID": 1
+  },
+  {
+    "Active": true,
+    "Category": "Appetizers",
     "Name": "Aloo Palak Paratha",
     "T_Price": 4,
     "D_Price": 5,
