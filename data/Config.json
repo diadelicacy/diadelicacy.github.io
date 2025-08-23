@@ -3,5 +3,10 @@
     "Active": true,
     "Key": "Auto_Menu_Date",
     "Value": "23.08.2025"
+  },
+  {
+    "Active": true,
+    "Key": "Custom_Menu_Date",
+    "Value": "22.08.2025"
   }
 ]
