@@ -62,16 +62,6 @@
   {
     "Active": true,
     "Category": "Desserts",
-    "Name": "Gulab Jamun",
-    "T_Price": 5,
-    "D_Price": 5,
-    "Dietary": "VEG",
-    "Description": "Deep purple colour berries made with milk.",
-    "ID": 7
-  },
-  {
-    "Active": true,
-    "Category": "Desserts",
     "Name": "Moong Dal Halwa",
     "T_Price": 5,
     "D_Price": 5.5,
