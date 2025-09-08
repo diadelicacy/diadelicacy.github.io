@@ -14,7 +14,7 @@
     "Category": "Appetizers",
     "Name": "Aloo Palak Paratha",
     "T_Price": 4,
-    "D_Price": 5,
+    "D_Price": 6,
     "Dietary": "VEG",
     "Description": "Flatbread with Potato and Spinach stuffing.",
     "ID": 2
@@ -22,7 +22,7 @@
   {
     "Active": true,
     "Category": "Main Courses",
-    "Name": "Signature Butter Chicken",
+    "Name": "Butter Chicken",
     "T_Price": 20,
     "D_Price": 22,
     "Dietary": "",
