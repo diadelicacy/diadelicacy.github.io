@@ -68,5 +68,15 @@
     "Dietary": "V, VEG",
     "Description": "Aromatic sweet dish with split yellow moong lentils, sugar and ghee.",
     "ID": 8
+  },
+  {
+    "Active": true,
+    "Category": "Desserts",
+    "Name": "Mango Millet Sheera",
+    "T_Price": 5,
+    "D_Price": 5,
+    "Dietary": "",
+    "Description": "Dessert made from millet",
+    "ID": ""
   }
 ]
