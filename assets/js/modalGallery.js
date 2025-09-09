@@ -13,7 +13,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const imageUrls = [
         './assets/images/food_biryani.jpg',
         './assets/images/food_vadapav.jpg',
+        './assets/images/food_naanwich.jpg',        
         './assets/images/food_thali.jpg',
+        './assets/images/food_thali2.jpg',
         './assets/images/food_sabudana_vada.jpg',
         './assets/images/food_kheemapav.jpg',
         './assets/images/food_butter_chicken.png',
@@ -29,6 +31,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const imageNames = [
         'Biryani',
         'Vada Pav',
+        'Nannwich',
+        'Indian Thali',
         'Indian Thali',
         'Sabudana Vada',
         'Kheema Pav',
