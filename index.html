@@ -6,7 +6,7 @@
     <title>Dia's Delicacy - Authentic Cuisine</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -101,9 +101,9 @@
 
   
     <div class="flex items-center justify-center py-20 relative overflow-hidden">
-    <div class="text-center text-3xl font-bold text-custom-red-800 z-10">
+<!--    <div class="text-center text-3xl font-bold text-custom-red-800 z-10">
         🎉 We’re 1 Year Old! 🎉
-    </div>
+    </div> -->
     <canvas id="confetti-canvas" class="fixed top-0 left-0 w-full h-full pointer-events-none z-0"></canvas>
 
     </div>
@@ -152,6 +152,10 @@ Here, each plate tells a story. A story of tradition, passion, and the joy of sh
             <i class="fas fa-seedling"></i>
             <span>- Vegetarian</span>
         </p>
+        <p class="flex items-center text-yellow-500 text-sm space-x-2">
+            <i class="fas fa-wheat-awn-circle-exclamation"></i>
+            <span>- Gluten-Free</span>
+        </p>
         <p class="flex items-center text-gray-600 text-sm space-x-2">
             <i class="fa-solid fa-bag-shopping"></i>
             <span>- Take away</span>
@@ -194,7 +198,7 @@ Here, each plate tells a story. A story of tradition, passion, and the joy of sh
         <div>
             <h3 class="font-semibold text-xl mb-2">Our Offerings</h3>
             <ul class="list-disc list-inside text-gray-700 space-y-1">
-            <li><span class="font-bold">Traditional Treats:</span> Authentic Indian Cuisine</li>
+            <li><span class="font-bold">Traditional Treats:</span> Homemade Indian Cuisine</li>
             <li><span class="font-bold">Baked Delights:</span> Cakes, Pastries, Muffins & Other Oven Treats</li>
             <li><span class="font-bold">Decadent Desserts:</span> Ras Malai, Kulfi, Gulab Jamun & more</li>
             </ul>
@@ -202,12 +206,7 @@ Here, each plate tells a story. A story of tradition, passion, and the joy of sh
 
         <div>
         <h3 class="font-semibold text-xl mb-2">Special Requests</h3>
-        <p class="text-gray-700 mb-4">We’re happy to accommodate your unique preferences to make every bite perfect:</p>
-        <ul class="list-disc list-inside text-gray-700 space-y-1 mt-3">
-            <li><span class="font-bold">Vegan Options: </span> crafted with care</li>
-            <li><span class="font-bold">Gluten-Free Options: </span> deliciously inclusive</li>
-            <li><span class="font-bold">Lactose-Free Options: </span> rich flavor, no compromise</li>
-        </ul>
+        <p class="text-gray-700 mb-4">We’re delighted to accommodate your preferences with Vegan, Gluten-Free, and Lactose-Free options ensuring every bite is perfect.</p>
         <p class="text-gray-700 mt-6">Have any other special requests? Let’s discuss them with you to make your event truly unforgettable.</p>
 
         </div>
@@ -372,7 +371,7 @@ Must visit 😋😋"
 
 
         // 1 year celebrations - confetti on page load --  starts
-        window.onload = function () {
+        /* window.onload = function () {
             const confettiCanvas = document.getElementById('confetti-canvas');
             const myConfetti = confetti.create(confettiCanvas, { resize: true, useWorker: true });
 
@@ -403,7 +402,7 @@ Must visit 😋😋"
             // Run immediately, then every 5 seconds
             runConfetti();
             //setInterval(runConfetti, 6000);
-        };
+        }; */
         // 1 year celebrations - confetti on page load --  ends
 
         // hero image slide show starts

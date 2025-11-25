@@ -130,6 +130,9 @@ if (Array.isArray(configItems) && configItems.length > 0) {
           if (diets.includes('VEG')) {
             dietaryIcons += '<i class="fas fa-seedling text-green-800 ml-2"></i>';
           }
+          if (diets.includes('GF')) {
+            dietaryIcons += '<i class="fas fa-wheat-awn-circle-exclamation text-yellow-500 ml-2"></i>';
+          }
         }
 
         const li = document.createElement('li');
