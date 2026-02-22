@@ -1785,4 +1785,23 @@ div {
 
   .footer-top .container { grid-template-columns: 1.4fr 1fr 1fr 1.6fr; }
 
+/* Custom animation for the sync icon */
+@keyframes spin-slow {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+    animation: spin-slow 8s linear infinite; /* 8s for a very gentle rotation */
+}
+
+/* Rotation Logic: 
+   If your TV slide is landscape but needs to be portrait on the web 
+*/
+#menu .menu-iframe-container iframe {
+    /* Change 0deg to 90deg or -90deg if it appears sideways */
+    transform: rotate(-90deg); 
+    transition: transform 0.5s ease;
+}
+
 }
