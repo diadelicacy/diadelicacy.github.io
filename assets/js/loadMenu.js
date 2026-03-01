@@ -111,10 +111,23 @@ function renderMenuGrid(grouped, container) {
 
 function renderMenuItem(item) {
     let icons = '';
-    const diet = String(item.Dietary || item.dietary || "").toUpperCase();
-    if (diet.includes('V')) icons += '<i class="fas fa-leaf text-green-500 ml-2" title="Vegan"></i>';
-    if (diet.includes('VEG')) icons += '<i class="fas fa-seedling text-green-700 ml-2" title="Vegetarian"></i>';
-    if (diet.includes('GF')) icons += '<i class="fas fa-wheat-awn-circle-exclamation text-yellow-500 ml-2" title="Gluten-Free"></i>';
+    // 1. Convert to Uppercase and split by comma into an array
+    // 2. Trim whitespace so "V, VEG" becomes ["V", "VEG"]
+    const dietArray = String(item.Dietary || item.dietary || "")
+        .toUpperCase()
+        .split(',')
+        .map(s => s.trim());
+
+    // Use .includes() on the array to check for exact matches
+    if (dietArray.includes('V')) {
+        icons += '<i class="fas fa-leaf text-green-500 ml-2" title="Vegan"></i>';
+    }
+    if (dietArray.includes('VEG')) {
+        icons += '<i class="fas fa-seedling text-green-700 ml-2" title="Vegetarian"></i>';
+    }
+    if (dietArray.includes('GF')) {
+        icons += '<i class="fas fa-wheat-awn-circle-exclamation text-yellow-500 ml-2" title="Gluten-Free"></i>';
+    }
 
     return `
         <li class="group">
