@@ -14,7 +14,7 @@
     "Active": true,
     "Day": "Tuesday",
     "Category": "Appetizers",
-    "Name": "PuranPoli",
+    "Name": "Puran Poli",
     "T_Price": 4,
     "D_Price": 6,
     "Dietary": "VEG",
@@ -47,22 +47,44 @@
     "Active": true,
     "Day": "Tuesday",
     "Category": "Main Courses",
-    "Name": "Veg Thali",
+    "Name": "Matar Paneer",
+    "T_Price": "",
+    "D_Price": "",
+    "Dietary": "",
+    "Description": "Served with Salad and Rice",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Tuesday",
+    "Category": "Main Courses",
+    "Name": "Patiala Chicken",
+    "T_Price": "",
+    "D_Price": "",
+    "Dietary": "",
+    "Description": "Served with Salad and Rice",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Tuesday",
+    "Category": "Main Courses",
+    "Name": "Veg Thali (Holi Special) - CHF 32",
     "T_Price": "",
     "D_Price": 32,
     "Dietary": "VEG",
-    "Description": "Matar Paneer, Rice, 2 Puris, Aloo sabji, fresh sala(carrots,cucumber,tomato),Dahi wada ,matar Kachori,Mango",
+    "Description": "Matar Paneer, Rice, 2 Puris, Aloo sabji, fresh salad,Dahi wada ,matar Kachori,Shrikhand.",
     "ID": 5
   },
   {
     "Active": true,
     "Day": "Tuesday",
     "Category": "Main Courses",
-    "Name": "Nonveg Thali",
+    "Name": "Nonveg Thali (Holi Speical) - CHF 32",
     "T_Price": "",
     "D_Price": 32,
     "Dietary": "",
-    "Description": "Patiala Chicken, Rice, 2 Puris, Aloo sabji, fresh sala(carrots,cucumber,tomato),Dahi wada ,matar Kachori,Mango.",
+    "Description": "Patiala Chicken, Rice, 2 Puris, Aloo sabji, fresh salad(carrots,cucumber,tomato),Dahi wada ,matar Kachori,Shrikhand.",
     "ID": ""
   },
   {
@@ -73,7 +95,7 @@
     "T_Price": "",
     "D_Price": 32,
     "Dietary": "VEG",
-    "Description": "Matar Paneer, Rice, 2 Puris, Aloo sabji, fresh sala(carrots,cucumber,tomato),Dahi wada ,matar Kachori,Mango",
+    "Description": "Matar Paneer, Rice, 2 Puris, Aloo sabji, fresh salad,Dahi wada ,matar Kachori,Mango",
     "ID": ""
   },
   {
@@ -113,11 +135,22 @@
     "Active": true,
     "Day": "Friday",
     "Category": "Main Courses",
-    "Name": "Palak Paneer or Tofu Dosa",
+    "Name": "Palak Paneer",
     "T_Price": 20,
     "D_Price": 22,
     "Dietary": "VEG",
     "Description": "Serverd with Sambhar and Chutney.",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Friday",
+    "Category": "Main Courses",
+    "Name": "Tofu Dosa",
+    "T_Price": 20,
+    "D_Price": 22,
+    "Dietary": "",
+    "Description": "",
     "ID": ""
   },
   {
