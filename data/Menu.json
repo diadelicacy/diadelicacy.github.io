@@ -139,7 +139,7 @@
     "T_Price": 20,
     "D_Price": 22,
     "Dietary": "VEG",
-    "Description": "Serverd with Sambhar and Chutney.",
+    "Description": "Served with Sambhar and Chutney.",
     "ID": ""
   },
   {
@@ -149,8 +149,8 @@
     "Name": "Tofu Dosa",
     "T_Price": 20,
     "D_Price": 22,
-    "Dietary": "",
-    "Description": "",
+    "Dietary": "V, VEG",
+    "Description": "Served with Sambhar and Chutney.",
     "ID": ""
   },
   {
