@@ -67,6 +67,28 @@
   },
   {
     "Active": true,
+    "Day": "Wednesday",
+    "Category": "Main Courses",
+    "Name": "Matar Paneer",
+    "T_Price": "",
+    "D_Price": "",
+    "Dietary": "",
+    "Description": "Served with Salad and Rice",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Wednesday",
+    "Category": "Main Courses",
+    "Name": "Patiala Chicken",
+    "T_Price": "",
+    "D_Price": "",
+    "Dietary": "",
+    "Description": "Served with Salad and Rice",
+    "ID": ""
+  },
+  {
+    "Active": true,
     "Day": "Tuesday",
     "Category": "Main Courses",
     "Name": "Veg Thali (Holi Special) - CHF 32",
