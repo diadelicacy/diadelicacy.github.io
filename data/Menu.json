@@ -1,8 +1,9 @@
 [
   {
     "Active": true,
+    "Day": "Mon",
     "Category": "Appetizers",
-    "Name": "Sabudana Vada1",
+    "Name": "Sabudana Vada",
     "T_Price": 6,
     "D_Price": 7,
     "Dietary": "VEG",
@@ -11,6 +12,7 @@
   },
   {
     "Active": true,
+    "Day": "Tue",
     "Category": "Appetizers",
     "Name": "Aloo Palak Paratha",
     "T_Price": 4,
@@ -21,6 +23,7 @@
   },
   {
     "Active": true,
+    "Day": "Monday",
     "Category": "Main Courses",
     "Name": "Butter Chicken",
     "T_Price": 20,
@@ -31,6 +34,7 @@
   },
   {
     "Active": true,
+    "Day": "Monday",
     "Category": "Main Courses",
     "Name": "Chicken Biryani",
     "T_Price": 20,
@@ -41,6 +45,7 @@
   },
   {
     "Active": true,
+    "Day": "Tuesday",
     "Category": "Main Courses",
     "Name": "Baingan Bharta",
     "T_Price": 20,
@@ -51,6 +56,7 @@
   },
   {
     "Active": true,
+    "Day": "Monday",
     "Category": "Desserts",
     "Name": "Mango Kulfi\n",
     "T_Price": 5,
@@ -61,6 +67,7 @@
   },
   {
     "Active": true,
+    "Day": "Tuesday",
     "Category": "Desserts",
     "Name": "Moong Dal Halwa",
     "T_Price": 5,
@@ -71,6 +78,7 @@
   },
   {
     "Active": true,
+    "Day": "Tuesday",
     "Category": "Desserts",
     "Name": "Mango Millet Sheera",
     "T_Price": 5,
