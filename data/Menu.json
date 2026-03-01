@@ -1,6 +1,7 @@
 [
   {
     "Active": true,
+    "Day": "Monday",
     "Category": "Appetizers",
     "Name": "Sabudana Vada",
     "T_Price": 6,
@@ -11,6 +12,7 @@
   },
   {
     "Active": true,
+    "Day": "Tuesday",
     "Category": "Appetizers",
     "Name": "Aloo Palak Paratha",
     "T_Price": 4,
@@ -21,6 +23,7 @@
   },
   {
     "Active": true,
+    "Day": "Monday",
     "Category": "Main Courses",
     "Name": "Butter Chicken",
     "T_Price": 20,
@@ -31,6 +34,7 @@
   },
   {
     "Active": true,
+    "Day": "Monday",
     "Category": "Main Courses",
     "Name": "Chicken Biryani",
     "T_Price": 20,
@@ -41,6 +45,7 @@
   },
   {
     "Active": true,
+    "Day": "Tuesday",
     "Category": "Main Courses",
     "Name": "Baingan Bharta",
     "T_Price": 20,
@@ -51,6 +56,84 @@
   },
   {
     "Active": true,
+    "Day": "Tuesday",
+    "Category": "Main Courses",
+    "Name": "Grilled Methi Chicken",
+    "T_Price": 20,
+    "D_Price": 22,
+    "Dietary": "",
+    "Description": "",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Wednesday",
+    "Category": "Main Courses",
+    "Name": "Paneer Kadhai",
+    "T_Price": 20,
+    "D_Price": 22,
+    "Dietary": "VEG",
+    "Description": "",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Wednesday",
+    "Category": "Main Courses",
+    "Name": "Tofu Masala",
+    "T_Price": 20,
+    "D_Price": 22,
+    "Dietary": "V, VEG",
+    "Description": "",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Wednesday",
+    "Category": "Main Courses",
+    "Name": "Chicken Dosa with Sambhar",
+    "T_Price": 20,
+    "D_Price": 22,
+    "Dietary": "",
+    "Description": "",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Monday",
+    "Category": "Main Courses",
+    "Name": "Chicken Korma on bones",
+    "T_Price": 20,
+    "D_Price": 22,
+    "Dietary": "",
+    "Description": "",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Tuesday",
+    "Category": "Main Courses",
+    "Name": "Kadala Curry",
+    "T_Price": 20,
+    "D_Price": 22,
+    "Dietary": "",
+    "Description": "",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Wednesday",
+    "Category": "Main Courses",
+    "Name": "Aloo Panner Dosa",
+    "T_Price": 20,
+    "D_Price": 22,
+    "Dietary": "VEG",
+    "Description": "",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Monday",
     "Category": "Desserts",
     "Name": "Mango Kulfi\n",
     "T_Price": 5,
@@ -61,6 +144,18 @@
   },
   {
     "Active": true,
+    "Day": "Monday",
+    "Category": "Desserts",
+    "Name": "Gulab Jamun",
+    "T_Price": 5,
+    "D_Price": 5,
+    "Dietary": "VEG",
+    "Description": "Deep purple colour berries made with milk.",
+    "ID": 7
+  },
+  {
+    "Active": true,
+    "Day": "Tuesday",
     "Category": "Desserts",
     "Name": "Moong Dal Halwa",
     "T_Price": 5,
@@ -71,6 +166,7 @@
   },
   {
     "Active": true,
+    "Day": "Tuesday",
     "Category": "Desserts",
     "Name": "Mango Millet Sheera",
     "T_Price": 5,

@@ -1804,4 +1804,20 @@ div {
     transition: transform 0.5s ease;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#tabTrack {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch; /* Smooth inertia scroll on iOS */
+}
+
 }

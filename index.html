@@ -132,72 +132,52 @@ Here, each plate tells a story. A story of tradition, passion, and the joy of sh
         </div>
     </section>
 
-<!-- Menu & Daily Specials Section starts -->
-<section id="menu" class="relative py-16 md:py-24 bg-white border-b border-gray-100">
-    <div class="container mx-auto px-4">
-        <h2 class="text-4xl font-bold mb-10 text-custom-red-800 text-center">Our Daily Menu</h2>
-        
-        <div class="max-w-4xl mx-auto">
-               <!-- <div class="relative w-full overflow-hidden rounded-xl shadow-2xl bg-white border border-gray-100 h-[700px] md:h-[900px]">
-                    <div class="absolute inset-0 flex justify-center items-center">
-                        <iframe 
-                            src="https://docs.google.com/presentation/d/e/1pb1yysArow6Zr-NuWDwBUxnLBwdI7i2nTQtN4yxVq5k/embed?start=true&loop=true&delayms=60000&rm=minimal#slide=id.g3c8f2e47b33_2_45"
-                            style="
-                            width: 1500px; 
-                            height: 850px; 
-                            border: none;
-                            transform: rotate(90deg);
-                            /* Clip-path cuts off exactly the parts where Google puts the bars */
-                            /* Clip-path parameters (right, bottom, left, top) */
-                            clip-path: inset(21% 0.5% 21% 0.4%);
-                            pointer-events: none;
-                                ">
-                        </iframe>
-                    </div>
-                </div> -->
-            <div class="mt-6 text-center">
-                <p class="mt-8 text-sm opacity-80">
-                    <i class="fas fa-info-circle mr-2"></i>Coming Soon. 
-                    <!--<i class="fas fa-info-circle mr-2"></i>Our menu is updated daily to bring you the freshest flavors. -->
-                </p>
-            </div>
-        </div>
+<!-- Menu & Daily Specials Section --> 
+<section id="menu" class="relative py-16 md:py-24 bg-white">
+    <div class="container mx-auto px-4 mb-12">
+        <h2 id="menuHeading" class="text-4xl font-bold mb-12 text-custom-red-800 text-center">
+            Our Weekly Menu
+        </h2>
+
+        <!-- Menu Grid -->
+        <div id="dynamicMenu" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+
+        <!-- Menu Labels / Icons -->
+        <p class="flex items-center text-green-600 text-sm space-x-2 mt-6">
+            <i class="fas fa-leaf"></i>
+            <span>- Vegan</span>
+        </p>
+        <p class="flex items-center text-green-800 text-sm space-x-2">
+            <i class="fas fa-seedling"></i>
+            <span>- Vegetarian</span>
+        </p>
+        <p class="flex items-center text-yellow-500 text-sm space-x-2">
+            <i class="fas fa-wheat-awn-circle-exclamation"></i>
+            <span>- Gluten-Free</span>
+        </p>
+        <p class="flex items-center text-gray-600 text-sm space-x-2">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span>- Take away</span>
+        </p>
+        <p class="flex items-center text-black text-sm space-x-2">
+            <i class="fa-solid fa-utensils"></i>
+            <span>- Dine-in</span>
+        </p>
+
+        <!-- Special dietary needs text aligned with menu items -->
+        <p class="text-black-700 text-sm mt-4">
+            Have special dietary needs? Speak with our staff and we’ll make it happen!
+        </p>
+
+        <p class="mt-8 text-sm opacity-80 text-center">
+            <span class="inline-flex items-center">
+                <i class="fas fa-info-circle mr-2 text-base"></i>
+                <span>Menu is updated daily. Please check back for new delights!</span>
+            </span>
+        </p>
     </div>
 </section>
-<!-- <section id="menu" class="relative py-16 md:py-24 bg-white border-b border-gray-100">
-    <div class="container mx-auto px-4">
-        <h2 class="text-4xl font-bold mb-10 text-custom-red-800 text-center">Our Daily Menu</h2>
-        
-        <div class="max-w-2xl mx-auto">
-            <div class="relative overflow-hidden rounded-xl shadow-2xl border border-gray-100 bg-white aspect-[3/4.5] md:aspect-[3/4] flex items-center justify-center">
-                <img 
-                    src="https://drive.google.com/uc?export=view&id=1pb1yysArow6Zr-NuWDwBUxnLBwdI7i2nTQtN4yxVq5k" 
-                    alt="Our Daily Menu" 
-                    class="absolute max-w-none transform rotate-90 scale-[1.35] md:scale-[1.25]"
-                    style="width: 100%; height: auto;"
-                    onerror="this.src='https://docs.google.com/presentation/d/1pb1yysArow6Zr-NuWDwBUxnLBwdI7i2nTQtN4yxVq5k/export/png?id=1pb1yysArow6Zr-NuWDwBUxnLBwdI7i2nTQtN4yxVq5k&pageid=p'"
-                >
-            </div>
 
-            <div class="mt-6 text-center">
-                <p class="mt-8 text-sm opacity-80 text-gray-600 flex items-center justify-center">
-                    <i class="fas fa-info-circle mr-2"></i>Our menu is updated daily to bring you the freshest flavors.
-                </p>
-            </div>
-        </div>
-    </div>
-</section> -->
-<!--<style>
-    /* Mobile-specific fix: increase zoom if the screen is very narrow */
-    @media (max-width: 768px) {
-        #menu iframe {
-            transform: rotate(90deg) scale(1.0) !important;
-            /* Shave a bit more off the top/bottom for narrow mobile screens */
-            clip-path: inset(38% 0.7% 38.2% 0%) !important;
-        }
-    }
-</style> -->
-<!-- Menu & Daily Specials Section ends -->
     <!-- Party and Catering -->
     <section id="catering" class="py-16 md:py-24 bg-white">
     <div class="container mx-auto px-4">
@@ -303,7 +283,7 @@ Here, each plate tells a story. A story of tradition, passion, and the joy of sh
                 <div class="md:text-left">
                     <p class="text-lg mb-4"><i class="fas fa-map-marker-alt text-red-700 mr-3"></i>Address: Rue Schaub 11, 1202 Genève</p>
                     <p class="text-lg mb-4"><i class="fas fa-phone-alt text-red-700 mr-3"></i> Phone: <a href="tel:+41227341122" class="text-blue-600 hover:underline">+41 227 34 11 22</a></p>
-                    <p class="text-lg mb-4"><i class="fas fa-envelope text-red-700 mr-3"></i> Email: <a href="mailto:info@diasdelicacy.ch" class="text-blue-600 hover:underline">info@diasdelicacy.ch</a></p>
+                    <p class="text-lg mb-4"><i class="fas fa-envelope text-red-700 mr-3"></i> Email: <a href="mailto:dia.delicacy@gmail.com" class="text-blue-600 hover:underline">dia.delicacy@gmail.com</a></p>
                     <p class="text-lg mb-6"><i class="fas fa-clock text-red-700 mr-3"></i> Hours:</p>
                     <ul class="list-none text-lg space-y-2">
                         <li>Monday to Friday: 12:00 - 19:00</li>
@@ -379,6 +359,16 @@ Must visit 😋😋"
     <script src="./assets/js/loadStatus.js"></script>
     <script src="./assets/js/loadMenu.js"></script>
     <script src="./assets/js/modalGallery.js"></script>
+    <script>
+    // Ensure the DOM is ready, then call the new init function
+    document.addEventListener('DOMContentLoaded', () => {
+        if (typeof initMenu === 'function') {
+        initMenu();
+        } else {
+        console.error("initMenu function not found. Check loadMenu.js loading.");
+        }
+    });
+    </script>
     <script>
     async function init() {
         let configItems = await readConfig(); // wait for async function to finish
