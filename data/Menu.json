@@ -12,17 +12,6 @@
   },
   {
     "Active": true,
-    "Day": "Tuesday",
-    "Category": "Appetizers",
-    "Name": "Puran Poli",
-    "T_Price": 4,
-    "D_Price": 6,
-    "Dietary": "VEG",
-    "Description": "Flatbread stuffed with cooked chana dal, jaggery, and cardamom.",
-    "ID": 2
-  },
-  {
-    "Active": true,
     "Day": "Monday",
     "Category": "Main Courses",
     "Name": "Smoky Baingan Bharta",
@@ -163,17 +152,6 @@
     "Dietary": "VEG",
     "Description": "Deep purple colour berries made with milk.",
     "ID": 7
-  },
-  {
-    "Active": true,
-    "Day": "Tuesday",
-    "Category": "Desserts",
-    "Name": "Moong Dal Halwa",
-    "T_Price": 5,
-    "D_Price": 5.5,
-    "Dietary": "V, VEG",
-    "Description": "Aromatic sweet dish with split yellow moong lentils, sugar and ghee.",
-    "ID": 8
   },
   {
     "Active": true,
