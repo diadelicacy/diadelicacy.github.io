@@ -61,7 +61,15 @@ function displayDay(selectedDay) {
     document.querySelectorAll('.tab-btn').forEach(btn => {
         if (btn.id === `btn-${selectedDay}`) {
             btn.className = "tab-btn whitespace-nowrap px-6 py-2 rounded-xl font-bold transition-all duration-200 text-sm md:text-base bg-white text-custom-red-800 shadow-sm";
-            btn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+            
+            // FIX: Use setTimeout to ensure the DOM is painted before scrolling
+            setTimeout(() => {
+                btn.scrollIntoView({ 
+                    behavior: 'smooth', 
+                    inline: 'center', 
+                    block: 'nearest' 
+                });
+            }, 50); // Small delay of 50ms
         } else {
             btn.className = "tab-btn whitespace-nowrap px-6 py-2 rounded-xl font-bold transition-all duration-200 text-sm md:text-base text-gray-500 hover:text-gray-700";
         }
