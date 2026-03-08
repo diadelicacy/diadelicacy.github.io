@@ -117,7 +117,7 @@
     "T_Price": "",
     "D_Price": 32,
     "Dietary": "VEG",
-    "Description": "",
+    "Description": "Served with Sambhar and Chutney.",
     "ID": ""
   },
   {
@@ -128,7 +128,7 @@
     "T_Price": "",
     "D_Price": 32,
     "Dietary": "",
-    "Description": "",
+    "Description": "Served with Sambhar and Chutney.",
     "ID": ""
   },
   {
@@ -138,7 +138,7 @@
     "Name": "Chicken Pahadi Kebab (whole leg marinated with green masala)",
     "T_Price": 20,
     "D_Price": 22,
-    "Dietary": "VEG",
+    "Dietary": "",
     "Description": "",
     "ID": ""
   },
