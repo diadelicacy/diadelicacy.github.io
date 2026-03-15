@@ -119,5 +119,16 @@
     "Dietary": "",
     "Description": "Serverd with Raita.",
     "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Thursday",
+    "Category": "Main Courses",
+    "Name": "Gudi Padwa Special Thali - CHF 32",
+    "T_Price": 20,
+    "D_Price": 22,
+    "Dietary": "",
+    "Description": "",
+    "ID": ""
   }
 ]
