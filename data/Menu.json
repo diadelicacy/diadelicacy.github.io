@@ -119,38 +119,5 @@
     "Dietary": "",
     "Description": "Serverd with Raita.",
     "ID": ""
-  },
-  {
-    "Active": true,
-    "Day": "Monday",
-    "Category": "Desserts",
-    "Name": "Mango Kulfi\n",
-    "T_Price": 5,
-    "D_Price": 5,
-    "Dietary": "",
-    "Description": "Traditional Indian ice cream with mango.\n\n",
-    "ID": 6
-  },
-  {
-    "Active": true,
-    "Day": "Monday",
-    "Category": "Desserts",
-    "Name": "Gulab Jamun",
-    "T_Price": 5,
-    "D_Price": 5,
-    "Dietary": "VEG",
-    "Description": "Deep purple colour berries made with milk.",
-    "ID": 7
-  },
-  {
-    "Active": true,
-    "Day": "Tuesday",
-    "Category": "Desserts",
-    "Name": "Mango Millet Sheera",
-    "T_Price": 5,
-    "D_Price": 5,
-    "Dietary": "GF, V",
-    "Description": "Dessert made from millet",
-    "ID": ""
   }
 ]
