@@ -14,22 +14,22 @@
     "Active": true,
     "Day": "Monday",
     "Category": "Main Courses",
-    "Name": "Whole Masoor Dal",
+    "Name": "Bhindi with Dal Palak",
     "T_Price": 20,
     "D_Price": 22,
     "Dietary": "VEG",
-    "Description": "Served with Red rice and leeks with edamame beans",
+    "Description": "Served with rice and Chapati.",
     "ID": 3
   },
   {
     "Active": true,
     "Day": "Monday",
     "Category": "Main Courses",
-    "Name": "Maharashtrian Style Prawn Curry",
+    "Name": "Palak Chicken",
     "T_Price": 20,
     "D_Price": 22,
     "Dietary": "",
-    "Description": "Served with Red rice and leeks with edamame beans",
+    "Description": "Served with rice.",
     "ID": 4
   },
   {
