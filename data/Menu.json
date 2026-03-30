@@ -101,8 +101,8 @@
   {
     "Active": true,
     "Day": "Friday",
-    "Category": "",
-    "Name": "Closed",
+    "Category": "Closed",
+    "Name": "",
     "T_Price": "",
     "D_Price": "",
     "Dietary": "",
