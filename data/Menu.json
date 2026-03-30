@@ -4,8 +4,6 @@
     "Day": "Monday",
     "Category": "Appetizers",
     "Name": "Aloo Paratha",
-    "T_Price": "",
-    "D_Price": "",
     "Dietary": "VEG",
     "Description": "Flatbread with Potato stuffing.",
     "ID": 1
@@ -15,8 +13,6 @@
     "Day": "Monday",
     "Category": "Main Courses",
     "Name": "Kadhi Pakoda and Turnips from the Bio Farm\n",
-    "T_Price": "",
-    "D_Price": "",
     "Dietary": "VEG",
     "Description": "Served with Jeera Rice.",
     "ID": 3
@@ -26,8 +22,6 @@
     "Day": "Monday",
     "Category": "Main Courses",
     "Name": "Chicken Korma and Turnips from the Bio Farm\n",
-    "T_Price": "",
-    "D_Price": "",
     "Dietary": "",
     "Description": "Served with Jeera Rice.",
     "ID": 4
@@ -37,8 +31,6 @@
     "Day": "Tuesday",
     "Category": "Main Courses",
     "Name": "Rajma with Jeera Rice",
-    "T_Price": "",
-    "D_Price": "",
     "Dietary": "VEG",
     "Description": "Served with sautéed Swiss Chard (Côte de Bette).",
     "ID": ""
@@ -48,8 +40,6 @@
     "Day": "Tuesday",
     "Category": "Main Courses",
     "Name": "Chicken Korma and Turnips from the Bio Farm\n",
-    "T_Price": "",
-    "D_Price": "",
     "Dietary": "",
     "Description": "Served with Jeera Rice.",
     "ID": ""
@@ -59,8 +49,6 @@
     "Day": "Wednesday",
     "Category": "Main Courses",
     "Name": "Rajma with Jeera Rice",
-    "T_Price": "",
-    "D_Price": "",
     "Dietary": "VEG",
     "Description": "",
     "ID": ""
@@ -70,8 +58,6 @@
     "Day": "Wednesday",
     "Category": "Main Courses",
     "Name": "Salmon Curry",
-    "T_Price": "",
-    "D_Price": "",
     "Dietary": "",
     "Description": "",
     "ID": ""
@@ -81,8 +67,6 @@
     "Day": "Thursday",
     "Category": "Main Courses",
     "Name": "Tofu Methi Naanwich",
-    "T_Price": "",
-    "D_Price": "",
     "Dietary": "VEG",
     "Description": "Freshly baked fenugreek (methi) naan stuffed with spiced tofu. Served with Raita.",
     "ID": 5
@@ -92,8 +76,6 @@
     "Day": "Thursday",
     "Category": "Main Courses",
     "Name": "Chicken Naanwich",
-    "T_Price": "",
-    "D_Price": "",
     "Dietary": "",
     "Description": "Chicken tucked into a soft, warm naan. Served with Raita.",
     "ID": ""
@@ -103,8 +85,6 @@
     "Day": "Friday",
     "Category": "Closed",
     "Name": "Our café will be closed on Good Friday.",
-    "T_Price": "",
-    "D_Price": "",
     "Dietary": "",
     "Description": "",
     "ID": ""
