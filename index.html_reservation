@@ -63,6 +63,9 @@
             </div>
         </div>
         <!-- Mobile Menu -->
+
+
+
         <nav id="mobile-menu" class="hidden md:hidden bg-white border-t">
             <a href="#about" class="block py-3 px-4 text-gray-700 hover:bg-gray-100 transition duration-300">About</a>
             <a href="#menu" class="block py-3 px-4 text-gray-700 hover:bg-gray-100 transition duration-300">Menu</a>
@@ -72,6 +75,7 @@
             <a href="#reviews" class="block py-3 px-4 text-gray-700 hover:bg-gray-100 transition duration-300">Reviews</a>
         </nav>
     </header>
+
 
     <!-- Hero Section -->
     <!-- <section class="relative bg-gradient-to-r from-red-200 to-red-100 text-white py-16 md:py-24 overflow-hidden">
@@ -94,6 +98,7 @@
                     alt="A platter of delicious food" 
                     class="w-full h-64 object-cover rounded-lg shadow-xl">
             </div>
+
 
     <!-- display cafe status if defined in sheets  -->      
     <div id="cafeStatus"></div>
@@ -137,10 +142,7 @@ Here, each plate tells a story. A story of tradition, passion, and the joy of sh
     <div class="container mx-auto px-4 mb-12">
         <h2 id="menuHeading" class="text-4xl font-bold mb-12 text-custom-red-800 text-center">
             Our Weekly Menu
-            <p id="menuDates" class="text-sm text-gray-500 leading-relaxed font-light"></p>
-
         </h2>
-
 
         <!-- Menu Grid -->
         <div id="dynamicMenu" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
@@ -156,6 +158,14 @@ Here, each plate tells a story. A story of tradition, passion, and the joy of sh
             CHF 22 Dine-in • CHF 20 Takeaway
         </span>
     </p>
+
+    <!-- reserve table -->
+    <div class="flex justify-center mt-10">
+        <button onclick="openResModal()" class="bg-gray-100 text-custom-red-800 border-2 border-custom-red-800 font-bold py-3 px-10 rounded-full shadow-lg hover:bg-custom-red-800 hover:text-white transition duration-300 transform hover:scale-105">
+            <i class="fas fa-calendar-alt mr-2"></i> Reserve a Table
+        </button>
+    </div>
+    <!-- reserve table -->
 
 
         <!-- Menu Labels / Icons -->
@@ -362,11 +372,80 @@ Must visit 😋😋"
         </div>
     </footer>
 
+    <!-- reserve table -->
+    <div id="reservation-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 z-[100] flex items-center justify-center p-4">
+        <div class="relative bg-white rounded-2xl shadow-2xl w-full max-w-lg overflow-visible animate-fade-in-up">
+            
+            <button id="close-reservation-modal" 
+                    class="absolute -top-4 -right-4 text-white text-3xl font-bold bg-black bg-opacity-40 rounded-full w-12 h-12 flex items-center justify-center hover:bg-opacity-60 transition z-[110]">
+                &times;
+            </button>
+
+            <div class="bg-custom-red-800 p-4 rounded-t-2xl flex justify-between items-center">
+                <h3 class="text-white text-xl font-bold">Book Your Table</h3>
+            </div>
+
+            <form id="reservationForm" class="p-6 space-y-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-semibold mb-1">Full Name *</label>
+                        <input type="text" name="name" required class="w-full border rounded-lg p-2 outline-none focus:ring-2 focus:ring-red-200">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold mb-1">WhatsApp / Phone *</label>
+                        <input type="tel" name="phone" required class="w-full border rounded-lg p-2 outline-none focus:ring-2 focus:ring-red-200">
+                    </div>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-semibold mb-1">Date & Time *</label>
+                        <input type="datetime-local" name="datetime" required class="w-full border rounded-lg p-2 outline-none focus:ring-2 focus:ring-red-200">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold mb-1">Guests *</label>
+                        <input type="number" name="guests" min="1" max="20" required class="w-full border rounded-lg p-2 outline-none focus:ring-2 focus:ring-red-200">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold mb-1">Email (Optional)</label>
+                    <input type="email" name="email" class="w-full border rounded-lg p-2 outline-none focus:ring-2 focus:ring-red-200">
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-end">
+                    <div>
+                        <label class="block text-sm font-semibold mb-1">Seating Preference</label>
+                        <select name="seating" class="w-full border rounded-lg p-2 outline-none focus:ring-2 focus:ring-red-200">
+                            <option value="Indoor">Indoor</option>
+                            <option value="Outdoor">Outdoor</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold mb-1">Special Requests</label>
+                    <textarea name="requests" rows="2" class="w-full border rounded-lg p-2 outline-none focus:ring-2 focus:ring-red-200"></textarea>
+                </div>
+
+                <button type="submit" id="submitBtn" class="w-full custom-red-700 text-white font-bold py-3 rounded-lg hover:bg-red-800 transition shadow-md">
+                    Confirm Reservation Request
+                </button>
+                <button type="button" onclick="closeResModal()" class="w-full bg-gray-200 text-gray-700 font-semibold py-2 px-4 rounded-lg hover:bg-gray-300 transition">
+                        Cancel
+                </button>
+            </form>
+            <div id="formMessage" class="hidden p-4 text-center font-medium rounded-b-2xl"></div>
+        </div>
+    </div>
+    <!-- reserve table -->
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
     <script src="./assets/js/readConfig.js"></script>
     <script src="./assets/js/loadStatus.js"></script>
     <script src="./assets/js/loadMenu.js"></script>
+    <script src="./assets/js/reservation.js"></script>
     <script src="./assets/js/modalGallery.js"></script>
     <script>
     // Ensure the DOM is ready, then call the new init function

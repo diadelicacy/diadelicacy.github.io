@@ -21,7 +21,29 @@ async function loadStatus(configItems) {
         break; // Exit loop after finding the status
 
       }
-  }   
+    }
+    
+    const startConfig = configItems.find(item => item.key === "Week_Start_Date");
+    const endConfig   = configItems.find(item => item.key === "Week_End_Date");
+
+    console.debug("Start Date Config:", startConfig, "End Date Config:", endConfig);
+
+    if (!startConfig || !endConfig) return;
+
+    const startDate = new Date(startConfig.value);
+    const endDate   = new Date(endConfig.value);
+
+    const formatSwiss = (date) =>
+      date.toLocaleDateString("de-CH", {
+        day: "2-digit",
+        month: "2-digit",
+        year: "numeric"
+      });
+
+    const formattedRange = `(${formatSwiss(startDate)} - ${formatSwiss(endDate)})`;
+    document.getElementById("menuDates").textContent = formattedRange;
+
+
 
     
   } catch (err) {
