@@ -97,5 +97,16 @@
     "Dietary": "",
     "Description": "Chicken tucked into a soft, warm naan. Served with Raita.",
     "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Friday",
+    "Category": "",
+    "Name": "Closed",
+    "T_Price": "",
+    "D_Price": "",
+    "Dietary": "",
+    "Description": "",
+    "ID": ""
   }
 ]
