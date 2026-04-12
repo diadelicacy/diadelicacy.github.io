@@ -2,6 +2,105 @@
   {
     "Active": true,
     "Day": "Monday",
+    "Category": "Main Courses",
+    "Name": "Traditional Dal",
+    "Dietary": "VEG",
+    "Description": "Served with Basmati Rice, handmade Chapati, and Farm-Fresh Turnips.",
+    "ID": 3
+  },
+  {
+    "Active": true,
+    "Day": "Monday",
+    "Category": "Main Courses",
+    "Name": "Chicken Madras",
+    "Dietary": "",
+    "Description": "Served with Rice and Farm-Fresh Turnips.",
+    "ID": 4
+  },
+  {
+    "Active": true,
+    "Day": "Tuesday",
+    "Category": "Main Courses",
+    "Name": "Palak Kofta stuffed with Paneer or Tofu",
+    "Dietary": "VEG",
+    "Description": "Served with Rice and a refreshing Endive & Orange Salad.",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Tuesday",
+    "Category": "Main Courses",
+    "Name": "Chicken Kofta Curry\n",
+    "Dietary": "",
+    "Description": "Served with Rice and a refreshing Endive & Orange Salad.",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Wednesday",
+    "Category": "Main Courses",
+    "Name": "Chawlichi Usal",
+    "Dietary": "VEG",
+    "Description": "Maharashtrian-style black-eyed pea curry, served with Rice and sautéed Leeks (Poireaux)",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Wednesday",
+    "Category": "Main Courses",
+    "Name": "Chicken Kofta Curry",
+    "Dietary": "",
+    "Description": "Served with Rice and a refreshing Endive & Orange Salad.",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Thursday",
+    "Category": "Main Courses",
+    "Name": "Chawlichi Usal",
+    "Dietary": "VEG",
+    "Description": "Maharashtrian-style black-eyed pea curry, served with Rice and sautéed Leeks (Poireaux)",
+    "ID": 5
+  },
+  {
+    "Active": true,
+    "Day": "Thursday",
+    "Category": "Main Courses",
+    "Name": "Methi Paneer Bhurji Naanwich",
+    "Dietary": "VEG",
+    "Description": "Tender chicken with fresh fenugreek, served inside a soft Naan.",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Thursday",
+    "Category": "Main Courses",
+    "Name": "Methi Chicken Naanwich",
+    "Dietary": "",
+    "Description": "Scrambled paneer with fresh fenugreek leaves, served inside a soft Naan.",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Friday",
+    "Category": "Main Courses",
+    "Name": "Veg. Dosa",
+    "Dietary": "VEG",
+    "Description": "Served with Sambhar and Chutney.",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Friday",
+    "Category": "Main Courses",
+    "Name": "Chicken Tandoori",
+    "Dietary": "",
+    "Description": "Served with Palak (Spinach) Rice and a colorful Beetroot Raita.",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Monday",
     "Category": "Appetizers",
     "Name": "Aloo Paratha",
     "Dietary": "VEG",
@@ -132,105 +231,6 @@
     "Name": "Dahi Puri",
     "Dietary": "VEG",
     "Description": "Crispy hollow shells filled with spiced potatoes and topped with chilled, creamy yogurt and tangy chutneys.",
-    "ID": ""
-  },
-  {
-    "Active": true,
-    "Day": "Monday",
-    "Category": "Main Courses",
-    "Name": "Traditional Dal",
-    "Dietary": "VEG",
-    "Description": "Served with Basmati Rice, handmade Chapati, and Farm-Fresh Turnips.",
-    "ID": 3
-  },
-  {
-    "Active": true,
-    "Day": "Monday",
-    "Category": "Main Courses",
-    "Name": "Chicken Madras",
-    "Dietary": "",
-    "Description": "Served with Rice and Farm-Fresh Turnips.",
-    "ID": 4
-  },
-  {
-    "Active": true,
-    "Day": "Tuesday",
-    "Category": "Main Courses",
-    "Name": "Palak Kofta stuffed with Paneer or Tofu",
-    "Dietary": "VEG",
-    "Description": "Served with Rice and a refreshing Endive & Orange Salad.",
-    "ID": ""
-  },
-  {
-    "Active": true,
-    "Day": "Tuesday",
-    "Category": "Main Courses",
-    "Name": "Chicken Kofta Curry\n",
-    "Dietary": "",
-    "Description": "Served with Rice and a refreshing Endive & Orange Salad.",
-    "ID": ""
-  },
-  {
-    "Active": true,
-    "Day": "Wednesday",
-    "Category": "Main Courses",
-    "Name": "Chawlichi Usal",
-    "Dietary": "VEG",
-    "Description": "Maharashtrian-style black-eyed pea curry, served with Rice and sautéed Leeks (Poireaux)",
-    "ID": ""
-  },
-  {
-    "Active": true,
-    "Day": "Wednesday",
-    "Category": "Main Courses",
-    "Name": "Chicken Kofta Curry",
-    "Dietary": "",
-    "Description": "Served with Rice and a refreshing Endive & Orange Salad.",
-    "ID": ""
-  },
-  {
-    "Active": true,
-    "Day": "Thursday",
-    "Category": "Main Courses",
-    "Name": "Chawlichi Usal",
-    "Dietary": "VEG",
-    "Description": "Maharashtrian-style black-eyed pea curry, served with Rice and sautéed Leeks (Poireaux)",
-    "ID": 5
-  },
-  {
-    "Active": true,
-    "Day": "Thursday",
-    "Category": "Main Courses",
-    "Name": "Methi Paneer Bhurji Naanwich",
-    "Dietary": "VEG",
-    "Description": "Tender chicken with fresh fenugreek, served inside a soft Naan.",
-    "ID": ""
-  },
-  {
-    "Active": true,
-    "Day": "Thursday",
-    "Category": "Main Courses",
-    "Name": "Methi Chicken Naanwich",
-    "Dietary": "",
-    "Description": "Scrambled paneer with fresh fenugreek leaves, served inside a soft Naan.",
-    "ID": ""
-  },
-  {
-    "Active": true,
-    "Day": "Friday",
-    "Category": "Main Courses",
-    "Name": "Veg. Dosa",
-    "Dietary": "VEG",
-    "Description": "Served with Sambhar and Chutney.",
-    "ID": ""
-  },
-  {
-    "Active": true,
-    "Day": "Friday",
-    "Category": "Main Courses",
-    "Name": "Chicken Tandoori",
-    "Dietary": "",
-    "Description": "Served with Palak (Spinach) Rice and a colorful Beetroot Raita.",
     "ID": ""
   }
 ]
