@@ -12,81 +12,99 @@
     "Active": true,
     "Day": "Monday",
     "Category": "Main Courses",
-    "Name": "Kadhi Pakoda and Turnips from the Bio Farm\n",
+    "Name": "Traditional Dal",
     "Dietary": "VEG",
-    "Description": "Served with Jeera Rice.",
+    "Description": "Served with Basmati Rice, handmade Chapati, and Farm-Fresh Turnips.",
     "ID": 3
   },
   {
     "Active": true,
     "Day": "Monday",
     "Category": "Main Courses",
-    "Name": "Chicken Korma and Turnips from the Bio Farm\n",
+    "Name": "Chicken Madras",
     "Dietary": "",
-    "Description": "Served with Jeera Rice.",
+    "Description": "Served with Rice and Farm-Fresh Turnips.",
     "ID": 4
   },
   {
     "Active": true,
     "Day": "Tuesday",
     "Category": "Main Courses",
-    "Name": "Rajma with Jeera Rice",
+    "Name": "Palak Kofta stuffed with Paneer / Tofu",
     "Dietary": "VEG",
-    "Description": "Served with sautéed Swiss Chard (Côte de Bette).",
+    "Description": "Served with Rice and a refreshing Endive & Orange Salad.",
     "ID": ""
   },
   {
     "Active": true,
     "Day": "Tuesday",
     "Category": "Main Courses",
-    "Name": "Chicken Korma and Turnips from the Bio Farm\n",
+    "Name": "Chicken Kofta Curry\n",
     "Dietary": "",
-    "Description": "Served with Jeera Rice.",
+    "Description": "Served with Rice and a refreshing Endive & Orange Salad.",
     "ID": ""
   },
   {
     "Active": true,
     "Day": "Wednesday",
     "Category": "Main Courses",
-    "Name": "Rajma with Jeera Rice",
+    "Name": "Chawlichi Usal",
     "Dietary": "VEG",
-    "Description": "",
+    "Description": "Maharashtrian-style black-eyed pea curry, served with Rice and sautéed Leeks (Poireaux)",
     "ID": ""
   },
   {
     "Active": true,
     "Day": "Wednesday",
     "Category": "Main Courses",
-    "Name": "Salmon Curry",
+    "Name": "Chicken Kofta Curry",
     "Dietary": "",
-    "Description": "",
+    "Description": "Served with Rice and a refreshing Endive & Orange Salad.",
     "ID": ""
   },
   {
     "Active": true,
     "Day": "Thursday",
     "Category": "Main Courses",
-    "Name": "Tofu Methi Naanwich",
+    "Name": "Chawlichi Usal",
     "Dietary": "VEG",
-    "Description": "Freshly baked fenugreek (methi) naan stuffed with spiced tofu. Served with Raita.",
+    "Description": "Maharashtrian-style black-eyed pea curry, served with Rice and sautéed Leeks (Poireaux)",
     "ID": 5
   },
   {
     "Active": true,
     "Day": "Thursday",
     "Category": "Main Courses",
-    "Name": "Chicken Naanwich",
+    "Name": "Methi Paneer Bhurji Naanwich",
+    "Dietary": "VEG",
+    "Description": "Tender chicken with fresh fenugreek, served inside a soft Naan.",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Thursday",
+    "Category": "Main Courses",
+    "Name": "Methi Chicken Naanwich",
     "Dietary": "",
-    "Description": "Chicken tucked into a soft, warm naan. Served with Raita.",
+    "Description": "Scrambled paneer with fresh fenugreek leaves, served inside a soft Naan.",
     "ID": ""
   },
   {
     "Active": true,
     "Day": "Friday",
-    "Category": "Closed",
-    "Name": "Our café will be closed on Good Friday.",
+    "Category": "Main Courses",
+    "Name": "Veg. Dosa",
+    "Dietary": "VEG",
+    "Description": "Served with Sambhar and Chutney.",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Friday",
+    "Category": "Main Courses",
+    "Name": "Chicken Tandoori",
     "Dietary": "",
-    "Description": "",
+    "Description": "Served with Palak (Spinach) Rice and a colorful Beetroot Raita.",
     "ID": ""
   }
 ]
