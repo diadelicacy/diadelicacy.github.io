@@ -3,81 +3,72 @@
     "Active": true,
     "Day": "Monday",
     "Category": "Main Courses",
-    "Name": "Traditional Dal",
+    "Name": "Whole Masoor Dal",
     "Dietary": "VEG",
-    "Description": "Served with Basmati Rice, handmade Chapati, and Farm-Fresh Turnips.",
+    "Description": "Hearty brown lentils served with Rice and sautéed Farm-Fresh Swiss Chard (Côte de Bette).",
     "ID": 3
   },
   {
     "Active": true,
     "Day": "Monday",
     "Category": "Main Courses",
-    "Name": "Chicken Madras",
+    "Name": "Kerala Prawn Curry",
     "Dietary": "",
-    "Description": "Served with Rice and Farm-Fresh Turnips.",
+    "Description": "Coastal-style prawns in a coconut milk gravy, served with Rice and a side of spring onion stir-fry.",
     "ID": 4
   },
   {
     "Active": true,
     "Day": "Tuesday",
     "Category": "Main Courses",
-    "Name": "Palak Kofta stuffed with Paneer or Tofu",
+    "Name": "Chole Palak",
     "Dietary": "VEG",
-    "Description": "Served with Rice and a refreshing Endive & Orange Salad.",
+    "Description": "Tender chickpeas cooked in a spiced spinach gravy, served with Rice and a cooling Beetroot (Betterave) Raita.",
     "ID": ""
   },
   {
     "Active": true,
     "Day": "Tuesday",
     "Category": "Main Courses",
-    "Name": "Chicken Kofta Curry\n",
+    "Name": "Palak Chicken\n",
     "Dietary": "",
-    "Description": "Served with Rice and a refreshing Endive & Orange Salad.",
+    "Description": "Succulent chicken simmered in a smooth spinach sauce, served with Rice and Beetroot Raita.",
     "ID": ""
   },
   {
     "Active": true,
     "Day": "Wednesday",
     "Category": "Main Courses",
-    "Name": "Chawlichi Usal",
+    "Name": "Chana Dal",
     "Dietary": "VEG",
-    "Description": "Maharashtrian-style black-eyed pea curry, served with Rice and sautéed Leeks (Poireaux)",
+    "Description": "Golden split chickpeas tempered with spices, served with Rice and Pan-fried Aubergines (Eggplant).",
     "ID": ""
   },
   {
     "Active": true,
     "Day": "Wednesday",
     "Category": "Main Courses",
-    "Name": "Chicken Kofta Curry",
+    "Name": "Assamese Black Sesame Chicken",
     "Dietary": "",
-    "Description": "Served with Rice and a refreshing Endive & Orange Salad.",
+    "Description": "An aromatic specialty from Northeast India, served with Jeera Rice and spring onion stir-fry.",
     "ID": ""
   },
   {
     "Active": true,
     "Day": "Thursday",
     "Category": "Main Courses",
-    "Name": "Chawlichi Usal",
+    "Name": "Sindhi Kadhi",
     "Dietary": "VEG",
-    "Description": "Maharashtrian-style black-eyed pea curry, served with Rice and sautéed Leeks (Poireaux)",
+    "Description": "A tangy, vegetable-rich chickpea flour curry, served with Rice and a crisp seasonal salad.",
     "ID": 5
   },
   {
     "Active": true,
     "Day": "Thursday",
     "Category": "Main Courses",
-    "Name": "Methi Paneer Bhurji Naanwich",
+    "Name": "Assamese Black Sesame Chicken",
     "Dietary": "VEG",
-    "Description": "Scrambled paneer with fresh fenugreek leaves, served inside a soft Naan.",
-    "ID": ""
-  },
-  {
-    "Active": true,
-    "Day": "Thursday",
-    "Category": "Main Courses",
-    "Name": "Methi Chicken Naanwich",
-    "Dietary": "",
-    "Description": "Tender chicken with fresh fenugreek, served inside a soft Naan.",
+    "Description": "An aromatic specialty from Northeast India, served with Jeera Rice and spring onion stir-fry.",
     "ID": ""
   },
   {
@@ -93,9 +84,18 @@
     "Active": true,
     "Day": "Friday",
     "Category": "Main Courses",
-    "Name": "Chicken Dosa",
+    "Name": "Egg Dosa",
     "Dietary": "",
-    "Description": "Served with Sambhar and Chutney.",
+    "Description": "Crispy fermented crepes layered with spiced egg.",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Friday",
+    "Category": "Main Courses",
+    "Name": "Chicken Tandoori",
+    "Dietary": "",
+    "Description": "Classic roasted chicken marinated in yogurt and spices, served with savory Tomato Rice and a farm-fresh salad.",
     "ID": ""
   },
   {
