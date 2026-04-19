@@ -30,7 +30,7 @@
     "Active": true,
     "Day": "Tuesday",
     "Category": "Main Courses",
-    "Name": "Palak Chicken\n",
+    "Name": "Palak Chicken",
     "Dietary": "",
     "Description": "Succulent chicken simmered in a smooth spinach sauce, served with Rice and Beetroot Raita.",
     "ID": ""
@@ -50,7 +50,7 @@
     "Category": "Main Courses",
     "Name": "Assamese Black Sesame Chicken",
     "Dietary": "",
-    "Description": "An aromatic specialty from Northeast India, served with Jeera Rice and spring onion stir-fry.",
+    "Description": "Northeast Indian aromatic specialty served with Jeera Rice and spring onion stir-fry.",
     "ID": ""
   },
   {
@@ -68,7 +68,7 @@
     "Category": "Main Courses",
     "Name": "Assamese Black Sesame Chicken",
     "Dietary": "VEG",
-    "Description": "An aromatic specialty from Northeast India, served with Jeera Rice and spring onion stir-fry.",
+    "Description": "Northeast Indian aromatic specialty served with Jeera Rice and spring onion stir-fry.",
     "ID": ""
   },
   {
@@ -86,7 +86,7 @@
     "Category": "Main Courses",
     "Name": "Egg Dosa",
     "Dietary": "",
-    "Description": "Crispy fermented crepes layered with spiced egg.",
+    "Description": "Crispy fermented crepes layered with spiced egg. Served with Sambhar and Chutney.",
     "ID": ""
   },
   {
