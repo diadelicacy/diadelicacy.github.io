@@ -82,15 +82,6 @@
   },
   {
     "Active": true,
-    "Day": "Monday",
-    "Category": "Desserts",
-    "Name": "Mango Pannacotta",
-    "Dietary": "V",
-    "Description": "A silky, plant-based tropical delight made with sweet Alphonso mangoes.\n",
-    "ID": 6
-  },
-  {
-    "Active": true,
     "Day": "Tuesday",
     "Category": "Appetizers",
     "Name": "Bhanavla",
@@ -222,6 +213,15 @@
     "Name": "Dahi Puri",
     "Dietary": "VEG",
     "Description": "Crispy hollow shells filled with spiced potatoes and topped with chilled, creamy yogurt and tangy chutneys.",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Monday",
+    "Category": "Desserts",
+    "Name": "Mango Pannacotta",
+    "Dietary": "V, VEG",
+    "Description": "A silky, plant-based tropical delight made with sweet Alphonso mangoes.\n",
     "ID": ""
   }
 ]
