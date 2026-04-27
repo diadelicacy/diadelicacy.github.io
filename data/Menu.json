@@ -58,7 +58,7 @@
     "Day": "Thursday",
     "Category": "Main Courses",
     "Name": "Tofu Palak Dosa",
-    "Dietary": "VEG",
+    "Dietary": "VEG, V",
     "Description": "A healthy, crispy lentil crepe stuffed with sautéed tofu and fresh spinach.",
     "ID": 5
   },
@@ -85,7 +85,7 @@
     "Day": "Tuesday",
     "Category": "Appetizers",
     "Name": "Bhanavla",
-    "Dietary": "V, VEG",
+    "Dietary": "VEG",
     "Description": "A traditional, savory spiced cake. Crispy on the outside and soft on the inside.",
     "ID": 8
   },
@@ -94,7 +94,7 @@
     "Day": "Tuesday",
     "Category": "Appetizers",
     "Name": "Bhajiya",
-    "Dietary": "V",
+    "Dietary": "VEG",
     "Description": "Crispy, golden-brown vegetable fritters perfectly seasoned with gram flour and herbs.",
     "ID": ""
   },
@@ -221,7 +221,7 @@
     "Category": "Desserts",
     "Name": "Mango Pannacotta",
     "Dietary": "V, VEG",
-    "Description": "A silky, plant-based tropical delight made with sweet Alphonso mangoes.\n",
+    "Description": "A silky, plant-based tropical delight made with sweet mangoes.\n",
     "ID": ""
   }
 ]
