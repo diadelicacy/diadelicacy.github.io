@@ -3,7 +3,7 @@
     "Active": true,
     "Day": "Monday",
     "Category": "Main Courses",
-    "Name": "Whole Masoor Dal",
+    "Name": "Palak curry rice ",
     "Dietary": "VEG",
     "Description": "Hearty brown lentils served with Rice and sautéed Farm-Fresh Swiss Chard (Côte de Bette).",
     "ID": 3
@@ -12,7 +12,7 @@
     "Active": true,
     "Day": "Monday",
     "Category": "Main Courses",
-    "Name": "Kerala Prawn Curry",
+    "Name": "Butter chicken ",
     "Dietary": "",
     "Description": "Coastal-style prawns in a coconut milk gravy, served with Rice and a side of spring onion stir-fry.",
     "ID": 4
@@ -21,7 +21,7 @@
     "Active": true,
     "Day": "Tuesday",
     "Category": "Main Courses",
-    "Name": "Chole Palak",
+    "Name": "Jackfruit curry ",
     "Dietary": "VEG",
     "Description": "Tender chickpeas cooked in a spiced spinach gravy, served with Rice and a cooling Beetroot (Betterave) Raita.",
     "ID": ""
@@ -30,7 +30,7 @@
     "Active": true,
     "Day": "Tuesday",
     "Category": "Main Courses",
-    "Name": "Palak Chicken",
+    "Name": "Salmon Curry",
     "Dietary": "",
     "Description": "Succulent chicken simmered in a smooth spinach sauce, served with Rice and Beetroot Raita.",
     "ID": ""
@@ -39,7 +39,7 @@
     "Active": true,
     "Day": "Wednesday",
     "Category": "Main Courses",
-    "Name": "Chana Dal",
+    "Name": "Soya Chunks Vindaloo ",
     "Dietary": "VEG",
     "Description": "Golden split chickpeas tempered with spices, served with Rice and Pan-fried Aubergines (Eggplant).",
     "ID": ""
@@ -48,7 +48,7 @@
     "Active": true,
     "Day": "Wednesday",
     "Category": "Main Courses",
-    "Name": "Assamese Black Sesame Chicken",
+    "Name": "Lamb Vindaloo",
     "Dietary": "",
     "Description": "Northeast Indian aromatic specialty served with Jeera Rice and spring onion stir-fry.",
     "ID": ""
@@ -57,7 +57,7 @@
     "Active": true,
     "Day": "Thursday",
     "Category": "Main Courses",
-    "Name": "Sindhi Kadhi",
+    "Name": "Tofu Palak Dosa",
     "Dietary": "VEG",
     "Description": "A tangy, vegetable-rich chickpea flour curry, served with Rice and a crisp seasonal salad.",
     "ID": 5
@@ -66,24 +66,6 @@
     "Active": true,
     "Day": "Thursday",
     "Category": "Main Courses",
-    "Name": "Assamese Black Sesame Chicken",
-    "Dietary": "",
-    "Description": "Northeast Indian aromatic specialty served with Jeera Rice and spring onion stir-fry.",
-    "ID": ""
-  },
-  {
-    "Active": true,
-    "Day": "Friday",
-    "Category": "Main Courses",
-    "Name": "Veg. Dosa",
-    "Dietary": "VEG",
-    "Description": "Served with Sambhar and Chutney.",
-    "ID": ""
-  },
-  {
-    "Active": true,
-    "Day": "Friday",
-    "Category": "Main Courses",
     "Name": "Egg Dosa",
     "Dietary": "",
     "Description": "Crispy fermented crepes layered with spiced egg. Served with Sambhar and Chutney.",
@@ -91,11 +73,47 @@
   },
   {
     "Active": true,
-    "Day": "Friday",
+    "Day": "Thursday",
     "Category": "Main Courses",
-    "Name": "Chicken Tandoori",
+    "Name": "Chicken Dosa",
     "Dietary": "",
     "Description": "Classic roasted chicken marinated in yogurt and spices, served with savory Tomato Rice and a farm-fresh salad.",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Monday",
+    "Category": "Desserts",
+    "Name": "Mango Pannacotta",
+    "Dietary": "V",
+    "Description": "Traditional Indian ice cream with mango.\n\n",
+    "ID": 6
+  },
+  {
+    "Active": true,
+    "Day": "Tuesday",
+    "Category": "Appetizers",
+    "Name": "Bhanavla",
+    "Dietary": "V, VEG",
+    "Description": "Aromatic sweet dish with split yellow moong lentils, sugar and ghee.",
+    "ID": 8
+  },
+  {
+    "Active": true,
+    "Day": "Tuesday",
+    "Category": "Appetizers",
+    "Name": "Bhajiya",
+    "Dietary": "GF, V",
+    "Description": "Dessert made from millet",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Friday",
+    "Category": "Closed",
+    "Name": "Our café will be closed on Worker's Day",
+    "Dietary": "",
+    "Description": "",
     "ID": ""
   },
   {
