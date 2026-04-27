@@ -223,32 +223,5 @@
     "Dietary": "VEG",
     "Description": "Crispy hollow shells filled with spiced potatoes and topped with chilled, creamy yogurt and tangy chutneys.",
     "ID": ""
-  },
-  {
-    "Active": true,
-    "Day": "Friday",
-    "Category": "Appetizers",
-    "Name": "Aloo Paratha",
-    "Dietary": "VEG",
-    "Description": "Flatbread with Potato stuffing.",
-    "ID": ""
-  },
-  {
-    "Active": true,
-    "Day": "Friday",
-    "Category": "Appetizers",
-    "Name": "Sev Puri",
-    "Dietary": "VEG",
-    "Description": "Flat crunchy crackers topped with diced vegetables, tangy chutneys, and a mountain of fine crispy sev.",
-    "ID": ""
-  },
-  {
-    "Active": true,
-    "Day": "Friday",
-    "Category": "Appetizers",
-    "Name": "Dahi Puri",
-    "Dietary": "VEG",
-    "Description": "Crispy hollow shells filled with spiced potatoes and topped with chilled, creamy yogurt and tangy chutneys.",
-    "ID": ""
   }
 ]
