@@ -3,9 +3,9 @@
     "Active": true,
     "Day": "Monday",
     "Category": "Main Courses",
-    "Name": "Palak curry rice ",
+    "Name": "Palak Curry",
     "Dietary": "VEG",
-    "Description": "Hearty brown lentils served with Rice and sautéed Farm-Fresh Swiss Chard (Côte de Bette).",
+    "Description": "Vibrant, spiced spinach gravy served with Rice.",
     "ID": 3
   },
   {
@@ -14,16 +14,16 @@
     "Category": "Main Courses",
     "Name": "Butter chicken ",
     "Dietary": "",
-    "Description": "Coastal-style prawns in a coconut milk gravy, served with Rice and a side of spring onion stir-fry.",
+    "Description": "Our signature creamy tomato-butter sauce with succulent chicken, served with Rice.",
     "ID": 4
   },
   {
     "Active": true,
     "Day": "Tuesday",
     "Category": "Main Courses",
-    "Name": "Jackfruit curry ",
+    "Name": "Jackfruit Curry",
     "Dietary": "VEG",
-    "Description": "Tender chickpeas cooked in a spiced spinach gravy, served with Rice and a cooling Beetroot (Betterave) Raita.",
+    "Description": "Tender, young jackfruit simmered in a robust traditional masala.",
     "ID": ""
   },
   {
@@ -32,7 +32,7 @@
     "Category": "Main Courses",
     "Name": "Salmon Curry",
     "Dietary": "",
-    "Description": "Succulent chicken simmered in a smooth spinach sauce, served with Rice and Beetroot Raita.",
+    "Description": "Fresh salmon fillets poached in a delicate, aromatic coconut and spice gravy.",
     "ID": ""
   },
   {
@@ -41,7 +41,7 @@
     "Category": "Main Courses",
     "Name": "Soya Chunks Vindaloo ",
     "Dietary": "VEG",
-    "Description": "Golden split chickpeas tempered with spices, served with Rice and Pan-fried Aubergines (Eggplant).",
+    "Description": "A fiery and tangy Goan-style curry featuring protein-rich soya chunks.",
     "ID": ""
   },
   {
@@ -50,7 +50,7 @@
     "Category": "Main Courses",
     "Name": "Lamb Vindaloo",
     "Dietary": "",
-    "Description": "Northeast Indian aromatic specialty served with Jeera Rice and spring onion stir-fry.",
+    "Description": "A bold, spicy, and vinegary Goan classic for those who love a bit of heat.",
     "ID": ""
   },
   {
@@ -59,7 +59,7 @@
     "Category": "Main Courses",
     "Name": "Tofu Palak Dosa",
     "Dietary": "VEG",
-    "Description": "A tangy, vegetable-rich chickpea flour curry, served with Rice and a crisp seasonal salad.",
+    "Description": "A healthy, crispy lentil crepe stuffed with sautéed tofu and fresh spinach.",
     "ID": 5
   },
   {
@@ -86,7 +86,7 @@
     "Category": "Desserts",
     "Name": "Mango Pannacotta",
     "Dietary": "V",
-    "Description": "Traditional Indian ice cream with mango.\n\n",
+    "Description": "A silky, plant-based tropical delight made with sweet Alphonso mangoes.\n",
     "ID": 6
   },
   {
@@ -95,7 +95,7 @@
     "Category": "Appetizers",
     "Name": "Bhanavla",
     "Dietary": "V, VEG",
-    "Description": "Aromatic sweet dish with split yellow moong lentils, sugar and ghee.",
+    "Description": "A traditional, savory spiced cake. Crispy on the outside and soft on the inside.",
     "ID": 8
   },
   {
@@ -103,8 +103,8 @@
     "Day": "Tuesday",
     "Category": "Appetizers",
     "Name": "Bhajiya",
-    "Dietary": "GF, V",
-    "Description": "Dessert made from millet",
+    "Dietary": "V",
+    "Description": "Crispy, golden-brown vegetable fritters perfectly seasoned with gram flour and herbs.",
     "ID": ""
   },
   {
