@@ -3,54 +3,54 @@
     "Active": true,
     "Day": "Monday",
     "Category": "Main Courses",
-    "Name": "Palak Curry",
+    "Name": "Masoor Bhat Tomato Sheer Aubergines Fritters",
     "Dietary": "VEG",
-    "Description": "Vibrant, spiced spinach gravy served with Rice.",
+    "Description": "",
     "ID": 3
   },
   {
     "Active": true,
     "Day": "Monday",
     "Category": "Main Courses",
-    "Name": "Butter chicken ",
+    "Name": "Peanut Butter Chicken ",
     "Dietary": "",
-    "Description": "Our signature creamy tomato-butter sauce with succulent chicken, served with Rice.",
+    "Description": "Served with Rice and Mizhuna salad.",
     "ID": 4
   },
   {
     "Active": true,
     "Day": "Tuesday",
     "Category": "Main Courses",
-    "Name": "Jackfruit Curry",
+    "Name": "Pak Choi Moong Dal Rice",
     "Dietary": "VEG",
-    "Description": "Tender, young jackfruit simmered in a robust traditional masala.",
+    "Description": "Served with Chapati.",
     "ID": ""
   },
   {
     "Active": true,
     "Day": "Tuesday",
     "Category": "Main Courses",
-    "Name": "Salmon Curry",
+    "Name": "Garlic Methi Chicken",
     "Dietary": "",
-    "Description": "Fresh salmon fillets poached in a delicate, aromatic coconut and spice gravy.",
+    "Description": "Served with Peaspulao and Pakchoi.",
     "ID": ""
   },
   {
     "Active": true,
     "Day": "Wednesday",
     "Category": "Main Courses",
-    "Name": "Soya Chunks Vindaloo ",
+    "Name": "Panchratna Dal Batti",
     "Dietary": "VEG",
-    "Description": "A fiery and tangy Goan-style curry featuring protein-rich soya chunks.",
+    "Description": "Served with Cotte de Bette.",
     "ID": ""
   },
   {
     "Active": true,
     "Day": "Wednesday",
     "Category": "Main Courses",
-    "Name": "Lamb Vindaloo",
+    "Name": "Prawns Curry",
     "Dietary": "",
-    "Description": "A bold, spicy, and vinegary Goan classic for those who love a bit of heat.",
+    "Description": "Served with Rice and Cotte de Bette.",
     "ID": ""
   },
   {
@@ -66,18 +66,36 @@
     "Active": true,
     "Day": "Thursday",
     "Category": "Main Courses",
-    "Name": "Egg Dosa",
+    "Name": "Palak Chicken",
     "Dietary": "",
-    "Description": "Crispy fermented crepes layered with spiced egg. Served with Sambhar and Chutney.",
+    "Description": "Served with Rice and Raita.",
     "ID": ""
   },
   {
     "Active": true,
     "Day": "Thursday",
     "Category": "Main Courses",
-    "Name": "Chicken Dosa",
+    "Name": "Palak Paneer",
+    "Dietary": "VEG",
+    "Description": "Served with Sambhar and Chutney.",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Friday",
+    "Category": "Main Courses",
+    "Name": "Egg Dosa",
     "Dietary": "",
-    "Description": "Classic roasted chicken marinated in yogurt and spices, served with savory Tomato Rice and a farm-fresh salad.",
+    "Description": "Served with Sambhar and Chutney.",
+    "ID": ""
+  },
+  {
+    "Active": true,
+    "Day": "Friday",
+    "Category": "Main Courses",
+    "Name": "Chicken Biryani",
+    "Dietary": "",
+    "Description": "Served with Raita.",
     "ID": ""
   },
   {
