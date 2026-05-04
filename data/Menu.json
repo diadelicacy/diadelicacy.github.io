@@ -109,15 +109,6 @@
   },
   {
     "Active": true,
-    "Day": "Friday",
-    "Category": "Closed",
-    "Name": "Our café will be closed on Worker's Day",
-    "Dietary": "",
-    "Description": "",
-    "ID": ""
-  },
-  {
-    "Active": true,
     "Day": "Monday",
     "Category": "Appetizers",
     "Name": "Aloo Paratha",
