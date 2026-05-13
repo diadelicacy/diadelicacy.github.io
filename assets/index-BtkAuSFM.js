@@ -264,7 +264,7 @@ Des haricots mungo entiers nutritifs mijotés dans un mélange d'épices savoure
     Du poulet haché savoureux sauté avec des épices traditionnelles, servi avec du riz à la vapeur et un accompagnement de fenouil de saison.
 
 * ### **Curry de Rajma :** 🌱Ⓥ
-Un curry de haricots rouges réconfortant et copieux, servi avec du riz à la vapeur et de délicieux légumes au fenouil...
+Un curry de haricots rouges réconfortant et copieux, servi avec du riz à la vapeur et de délicieux légumes au fenouil.
 
 `,Ea=`| | | |
 | :--- | :--- | :--- |
