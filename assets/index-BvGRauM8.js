@@ -130,10 +130,11 @@ A comforting and hearty red kidney bean curry served alongside steamed rice and 
     Soft vegetable and paneer dumplings in a rich creamy gravy, or tofu cooked in a fragrant Indian curry.`,fa=`## 21 May, Thursday
 
 * ### **Achari Salmon :** 🐟
-    Salmon cooked with tangy achari pickling spices, served with rice and sautéed Swiss chard.
+    Salmon cooked with tangy achari pickling spices, served with rice and legumes.
 
 * ### **Mushroom Tofu Curry :** 🌱Ⓥ
-    Mushrooms and tofu simmered in a flavourful Indian curry with aromatic spices.`,pa=`## 22 May, Friday
+    Mushrooms and tofu simmered in a flavourful Indian curry with aromatic spices.
+`,pa=`## 22 May, Friday
 
 * ### **Chicken Tandoori :** 🍗
     Tandoori-spiced grilled chicken served with spinach rice and refreshing beetroot raita.
