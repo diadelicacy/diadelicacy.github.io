@@ -320,10 +320,11 @@ Un curry de haricots rouges réconfortant et copieux, servi avec du riz à la va
     Boulettes de légumes et fromage frais dans une sauce douce et crémeuse, ou tofu mijoté dans un curry parfumé aux épices.`,Pa=`## 21 Mai, Jeudi
 
 * ### **Saumon Achari :** 🐟
-    Saumon cuisiné avec des épices marinées style achari, servi avec du riz parfumé et des côtes de bette sautées.
+    Saumon cuisiné avec des épices marinées style achari, servi avec du riz parfumé et légumes.
 
 * ### **Curry de Champignons et Tofu :** 🌱Ⓥ
-    Champignons et tofu mijotés dans une sauce indienne savoureuse aux épices douces.`,Fa=`## 22 Mai, Vendredi
+    Champignons et tofu mijotés dans une sauce indienne savoureuse aux épices douces.
+`,Fa=`## 22 Mai, Vendredi
 
 * ### **Poulet Tandoori :** 🍗
     Poulet mariné aux épices tandoori et grillé, servi avec du riz aux épinards et un raita de betterave rafraîchissant.
