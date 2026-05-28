@@ -417,11 +417,14 @@ Un curry de haricots rouges réconfortant et copieux, servi avec du riz à la va
     Curry de lentilles jaunes (dal) réconfortant servi avec du riz cuit à la vapeur, des légumes de saison et un chapati moelleux.
 `,Ya=`## 28 Mai, Jeudi
 
-* ### **Lamb Kheema Pao :** 🥩
+* ### **Lamb Kheema Pao :** 🥩 <span class="prix">24 CHF</span>
     Curry d'agneau haché épicé servi avec des petits pains moelleux (pao), accompagné d'une salade d'oignons et radis, et d'une raïta de concombre rafraîchissante.
 
-* ### **Paneer Matar avec Riz & Légumes :** 🌱
+* ### **Paneer Matar avec Riz & Légumes :** 🌱 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Dés de fromage frais indien (paneer) et petits pois mijotés dans une sauce épicée aux oignons et tomates, servis avec du riz cuit à la vapeur et des légumes de saison.
+  
+* ### **Dal Rice avec Légumes & Chapati :** 🌱Ⓥ <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+    Curry de lentilles jaunes (dal) réconfortant servi avec du riz cuit à la vapeur, des légumes de saison et un chapati moelleux.
 `,Xa=`## 29 Mai, Vendredi
 
 * ### **Biryani au Poulet :** 🍗
