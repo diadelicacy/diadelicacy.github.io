@@ -195,8 +195,8 @@ A comforting and hearty red kidney bean curry served alongside steamed rice and 
     Spiced chickpea curry (chole) served with fluffy fried bread (bhatura), a side of fresh onion salad, and cooling raita.
 `,Sa=`## 04 June, Thursday
 
-* ### **Kerala-Style Nadan Chicken Curry with Appam :** 🍗
-    Traditional Kerala chicken curry prepared in coconut milk and aromatic spices, served with soft, lacy rice pancakes (appam) and seasonal vegetables.
+* ### **Kerala-Style Nadan Chicken Curry with Rice :** 🍗
+    Traditional Kerala chicken curry prepared in coconut milk and aromatic spices, served with rice and seasonal vegetables.
 
 * ### **Chole Bhatura with Salad & Raita :** 🌱
     Spiced chickpea curry (chole) served with fluffy fried bread (bhatura), a side of fresh onion salad, and cooling raita.
@@ -455,8 +455,8 @@ Un curry de haricots rouges réconfortant et copieux, servi avec du riz à la va
     Curry de pois chiches épicé (chole) servi avec de grands pains frits et gonflés (bhatura), accompagné d'une salade d'oignons frais et d'une raïta.
 `,eo=`## 04 Juin, Jeudi
 
-* ### **Curry de Poulet Nadan du Kerala avec Appam :** 🍗
-    Curry de poulet traditionnel du Kerala cuisiné dans du lait de coco et des épices aromatiques, servi avec des crêpes de riz moelleuses (appam) et des légumes.
+* ### **Curry de Poulet Nadan du Kerala avec Riz :** 🍗
+    Curry de poulet traditionnel du Kerala cuisiné dans du lait de coco et des épices aromatiques, servi avec riz et des légumes.
 
 * ### **Chole Bhatura avec Salade & Raïta :** 🌱
     Curry de pois chiches épicé (chole) servi avec de grands pains frits et gonflés (bhatura), accompagné d'une salade d'oignons frais et d'une raïta.
