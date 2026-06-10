@@ -225,6 +225,9 @@ A comforting and hearty red kidney bean curry served alongside steamed rice and 
 
 * ### **Palak Chicken :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Tender chicken pieces simmered in a smooth, spiced spinach gravy, served with rice.
+    
+* ### **Dahi Chicken Curry :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+    Tender chicken marinated and cooked in a creamy yogurt-based sauce with aromatic spices, served with rice.
 
 * ### **Palak Paneer / Tofu :** 🌱 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Cubes of paneer cheese or tofu served in a velvety spinach and aromatic spice sauce, accompanied by rice.
@@ -520,6 +523,9 @@ Un curry de haricots rouges réconfortant et copieux, servi avec du riz à la va
 
 * ### **Poulet Palak :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Tendres morceaux de poulet mijotés dans une sauce onctueuse aux épinards frais et aux épices, servis avec du riz.
+
+* ### **Curry de Poulet au Yaourt (Dahi Chicken) :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+    Poulet tendre mariné et cuit dans une sauce onctueuse au yaourt et aux épices aromatiques, servi avec du riz.
 
 * ### **Palak Paneer / Tofu :** 🌱 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Cubes de fromage paneer ou de tofu servis dans une sauce veloutée aux épinards et épices aromatiques, accompagnés de riz.
