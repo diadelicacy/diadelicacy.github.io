@@ -248,10 +248,10 @@ A comforting and hearty red kidney bean curry served alongside steamed rice and 
 `,ka=`### 15 June, Monday
 
 * ### **Moong Dal Palak :** 🌱Ⓥ <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
-    Yellow moong lentils cooked with fresh spinach, served with rice, seasonal vegetables, and a traditional chapati.
+    Green moong lentils cooked with fresh spinach, served with rice, seasonal vegetables, and a traditional chapati.
 
 * ### **Palak Chicken :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
-    Tender chicken simmered in a creamy spiced spinach sauce, served with rice and a fresh side salad.
+    Tender chicken simmered in a creamy spiced spinach sauce, served with rice and a side salad.
 `,Aa=`### 16 June, Tuesday
 
 * ### **Dal Makhani :** 🌱 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
@@ -581,10 +581,10 @@ Un curry de haricots rouges réconfortant et copieux, servi avec du riz à la va
 `,vo=`### 15 Juin, Lundi
 
 * ### **Moong Dal Palak :** 🌱Ⓥ <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
-    Lentilles moong jaunes aux épinards frais, servies avec du riz, des légumes de saison et un pain chapati traditionnel. / *Yellow moong lentils cooked with fresh spinach, served with rice, seasonal vegetables, and a traditional chapati.*
+    Lentilles moong vertes aux épinards frais, servies avec du riz, des légumes de saison et un pain chapati traditionnel. / *Grren moong lentils cooked with fresh spinach, served with rice, seasonal vegetables, and a traditional chapati.*
 
 * ### **Poulet Palak :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
-    Poulet tendre mijoté dans une sauce onctueuse aux épinards et aux épices, servi avec du riz et une salade fraîche. / *Tender chicken simmered in a creamy spiced spinach sauce, served with rice and a fresh side salad.*
+    Poulet tendre mijoté dans une sauce onctueuse aux épinards et aux épices, servi avec du riz et une salade. / *Tender chicken simmered in a creamy spiced spinach sauce, served with rice and a side salad.*
 `,yo=`### 16 Juin, Mardi
 
 * ### **Dal Makhani :** 🌱 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
