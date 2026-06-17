@@ -261,12 +261,17 @@ A comforting and hearty red kidney bean curry served alongside steamed rice and 
     Chicken cooked in a rich, creamy, and nutty royal Mughlai gravy, served with rice and seasonal vegetables.
 `,ja=`### 17 June, Wednesday
 
-* ### **Lamb Curry :** 🥩 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+* ### **Lamb Curry :** 🥩 <span class="prix">24 CHF🍽️ / 24 CHF🥡</span>
     Slow-cooked lamb in an aromatic spiced gravy, served with rice and a fresh cucumber salad.
 
 * ### **Soya Chilli & Indo-Chinese Fried Rice :** 🌱Ⓥ <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Sautéed soy chunks in a spicy, tangy sauce, served with Indo-Chinese style fried rice.
-`,Ma=`### 18 June, Thursday
+
+* ### **Dal Makhani :** 🌱 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+    Slow-cooked black lentils with butter and cream, served with one crispy paratha, rice, and a fresh salad.
+
+* ### **Mughlai Chicken :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+    Chicken cooked in a rich, creamy, and nutty royal Mughlai gravy, served with rice and seasonal vegetables.`,Ma=`### 18 June, Thursday
 
 * ### **Paneer / Tofu Butter Masala :** 🌱Ⓥ <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Paneer cheese or tofu (vegan option) in a rich, creamy tomato butter sauce, serverd with rice and vegetables.
@@ -594,12 +599,17 @@ Un curry de haricots rouges réconfortant et copieux, servi avec du riz à la va
     Poulet préparé dans une sauce royale riche et crémeuse aux noix, servie avec du riz et des légumes de saison. / *Chicken cooked in a rich, creamy, and nutty royal Mughlai gravy, served with rice and seasonal vegetables.*
 `,bo=`### 17 Juin, Mercredi
 
-* ### **Curry d’Agneau :** 🥩 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+* ### **Curry d’Agneau :** 🥩 <span class="prix">24 CHF🍽️ / 24 CHF🥡</span>
     Agneau mijoté lentement dans une sauce aux épices aromatiques, servi avec du riz et une salade de concombre fraîche. / *Slow-cooked lamb in an aromatic spiced gravy, served with rice and a fresh cucumber salad.*
 
 * ### **Soya Chilli & Riz Frit Indo-Chinois :** 🌱Ⓥ <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Bouchées de soja sautées dans une sauce épicée et piquante, accompagnées de riz frit de style indo-chinois. / *Sautéed soy chunks in a spicy, tangy sauce, served with Indo-Chinese style fried rice.*
-`,xo=`### 18 Juin, Jeudi
+
+* ### **Dal Makhani :** 🌱 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+    Lentilles noires mijotées lentement avec du beurre et de la crème, servies avec un pain paratha croustillant, du riz et une salade fraîche. / *Slow-cooked black lentils with butter and cream, served with one crispy paratha, rice, and a fresh salad.*
+
+* ### **Poulet Mughlai :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+    Poulet préparé dans une sauce royale riche et crémeuse aux noix, servie avec du riz et des légumes de saison. / *Chicken cooked in a rich, creamy, and nutty royal Mughlai gravy, served with rice and seasonal vegetables.*`,xo=`### 18 Juin, Jeudi
 
 * ### **Paneer / Tofu Butter Masala :** 🌱Ⓥ <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Fromage paneer ou tofu (option végétalienne) dans une sauce crémeuse et onctueuse à la tomate et au beurre, servi avec du riz et des légumes. / *Paneer cheese or tofu (vegan option) in a rich, creamy tomato butter sauce, served with rice and vegetables.*
