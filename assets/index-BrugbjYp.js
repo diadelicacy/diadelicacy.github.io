@@ -615,13 +615,19 @@ Un curry de haricots rouges réconfortant et copieux, servi avec du riz à la va
     Lentilles noires mijotées lentement avec du beurre et de la crème, servies avec un pain paratha croustillant, du riz et une salade fraîche. / *Slow-cooked black lentils with butter and cream, served with one crispy paratha, rice, and a fresh salad.*
 
 * ### **Poulet Mughlai :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
-    Poulet préparé dans une sauce royale riche et crémeuse aux noix, servie avec du riz et des légumes de saison. / *Chicken cooked in a rich, creamy, and nutty royal Mughlai gravy, served with rice and seasonal vegetables.*`,xo=`### 17 Juin, Mercredi
+    Poulet préparé dans une sauce royale riche et crémeuse aux noix, servie avec du riz et des légumes de saison. / *Chicken cooked in a rich, creamy, and nutty royal Mughlai gravy, served with rice and seasonal vegetables.*`,xo=`### 18 Juin, Jeudi 
 
-* ### **Curry d’Agneau :** 🥩 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+* ### **Curry d’Agneau :** 🥩 <span class="prix">24 CHF🍽️ / 24 CHF🥡</span>
     Agneau mijoté lentement dans une sauce aux épices aromatiques, servi avec du riz et une salade de concombre fraîche. / *Slow-cooked lamb in an aromatic spiced gravy, served with rice and a fresh cucumber salad.*
 
 * ### **Soya Chilli & Riz Frit Indo-Chinois :** 🌱Ⓥ <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Bouchées de soja sautées dans une sauce épicée et piquante, accompagnées de riz frit de style indo-chinois. / *Sautéed soy chunks in a spicy, tangy sauce, served with Indo-Chinese style fried rice.*
+
+* ### **Dal Makhani :** 🌱 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+    Lentilles noires mijotées lentement avec du beurre et de la crème, servies avec un pain paratha croustillant, du riz et une salade fraîche. / *Slow-cooked black lentils with butter and cream, served with one crispy paratha, rice, and a fresh salad.*
+
+* ### **Poulet Mughlai :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+    Poulet préparé dans une sauce royale riche et crémeuse aux noix, servie avec du riz et des légumes de saison. / *Chicken cooked in a rich, creamy, and nutty royal Mughlai gravy, served with rice and seasonal vegetables.*
 `,So=`### 17 Juin, Mercredi
 
 * ### **Curry d’Agneau :** 🥩 <span class="prix">24 CHF🍽️ / 24 CHF🥡</span>
