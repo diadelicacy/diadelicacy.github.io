@@ -628,19 +628,13 @@ Un curry de haricots rouges réconfortant et copieux, servi avec du riz à la va
 
 * ### **Poulet Mughlai :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Poulet préparé dans une sauce royale riche et crémeuse aux noix, servie avec du riz et des légumes de saison. / *Chicken cooked in a rich, creamy, and nutty royal Mughlai gravy, served with rice and seasonal vegetables.*
-`,So=`### 17 Juin, Mercredi
+`,So=`### 19 Juin, Vendredi
 
-* ### **Curry d’Agneau :** 🥩 <span class="prix">24 CHF🍽️ / 24 CHF🥡</span>
-    Agneau mijoté lentement dans une sauce aux épices aromatiques, servi avec du riz et une salade de concombre fraîche. / *Slow-cooked lamb in an aromatic spiced gravy, served with rice and a fresh cucumber salad.*
+* ### **Poulet Tandoori :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+    Poulet mariné au yaourt et aux épices tandoori traditionnelles puis grillé, servi avec du riz aux carottes et une salade verte aux fèves d'edamame. / *Yogurt and tandoori-spiced marinated grilled chicken, served with carrot rice and a green salad with edamame beans.*
 
-* ### **Soya Chilli & Riz Frit Indo-Chinois :** 🌱Ⓥ <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
-    Bouchées de soja sautées dans une sauce épicée et piquante, accompagnées de riz frit de style indo-chinois. / *Sautéed soy chunks in a spicy, tangy sauce, served with Indo-Chinese style fried rice.*
-
-* ### **Dal Makhani :** 🌱 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
-    Lentilles noires mijotées lentement avec du beurre et de la crème, servies avec un pain paratha croustillant, du riz et une salade fraîche. / *Slow-cooked black lentils with butter and cream, served with one crispy paratha, rice, and a fresh salad.*
-
-* ### **Poulet Mughlai :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
-    Poulet préparé dans une sauce royale riche et crémeuse aux noix, servie avec du riz et des légumes de saison. / *Chicken cooked in a rich, creamy, and nutty royal Mughlai gravy, served with rice and seasonal vegetables.*
+* ### **Masala Dosa / Egg Dosa :** 🌱🥚 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+    Crêpe fine de riz et lentilles fermentées, garnie d'une farce de pommes de terre épicées (Masala) ou d'un œuf, servie avec sambar et chutney. / *Thin fermented rice and lentil crepe, filled with spiced potato mash (Masala) or egg, served with warm sambar and chutney.*
 `,Co=`| | | |
 | :--- | :--- | :--- |
 | **Boissons** | Mango Lassi <br/> Kombucha <br/> Super Bock | 5 CHF |
