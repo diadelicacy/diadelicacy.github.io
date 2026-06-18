@@ -271,7 +271,7 @@ A comforting and hearty red kidney bean curry served alongside steamed rice and 
     Slow-cooked black lentils with butter and cream, served with one crispy paratha, rice, and a fresh salad.
 
 * ### **Mughlai Chicken :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
-    Chicken cooked in a rich, creamy, and nutty royal Mughlai gravy, served with rice and seasonal vegetables.`,Ma=`### 17 June, Wednesday
+    Chicken cooked in a rich, creamy, and nutty royal Mughlai gravy, served with rice and seasonal vegetables.`,Ma=`### 18 June, Thursday 
 
 * ### **Lamb Curry :** 🥩 <span class="prix">24 CHF🍽️ / 24 CHF🥡</span>
     Slow-cooked lamb in an aromatic spiced gravy, served with rice and a fresh cucumber salad.
