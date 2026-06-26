@@ -321,8 +321,8 @@ A comforting and hearty red kidney bean curry served alongside steamed rice and 
     Chicken cooked with peppers and onions in an aromatic kadhai sauce, served with rice and vegetables.
 `,Ra=`### 26 June, Friday
 
-* ### **Chicken Biryani :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
-    Fragrant basmati rice cooked with spices and tender chicken, served with a fresh salad.
+* ### **Kadhai Chicken or Chicken Mappas Curry:** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+    Served with rice and vegetables.
 
 * ### **Masala Dosa / Egg Dosa :** 🌱🥚 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Thin fermented rice and lentil crepe filled with spiced potatoes or egg, served with sambar and chutney.
@@ -700,8 +700,8 @@ Un curry de haricots rouges réconfortant et copieux, servi avec du riz à la va
     Poulet sauté avec poivrons et oignons dans une sauce kadhai parfumée, servi avec du riz et des légumes. / *Chicken cooked with peppers and onions in an aromatic kadhai sauce, served with rice and vegetables.*
 `,Mo=`### 26 Juin, Vendredi
 
-* ### **Biryani de Poulet :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
-    Riz basmati parfumé aux épices et au poulet tendre, accompagné d’une salade fraîche. / *Fragrant basmati rice cooked with spices and tender chicken, served with a fresh salad.*
+*  ### **Poulet Kadhai ou Poulet Mappas Curry:** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+    Servi avec du riz et des légumes.
 
 * ### **Masala Dosa / Egg Dosa :** 🌱🥚 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Crêpe fine de riz et lentilles fermentées, garnie d'une farce de pommes de terre épicées ou d'un œuf, servie avec sambar et chutney. / *Thin fermented rice and lentil crepe filled with spiced potatoes or egg, served with sambar and chutney.*
