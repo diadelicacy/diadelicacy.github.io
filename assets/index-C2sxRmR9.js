@@ -335,8 +335,8 @@ A comforting and hearty red kidney bean curry served alongside steamed rice and 
     Chicken curry served with rice and seasonal zucchini. / *Curry de poulet savoureux servi avec du riz et des courgettes de saison.*
 `,Ba=`### June 30, Tuesday
 
-* ### **Maa Ki Dal :** 🌱Ⓥ <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
-    Traditional black urad dal (Maa ki Dal), served with rice, fresh chapati, and salad. / *Lentilles noires urad traditionnelles (Maa ki Dal) servies avec du riz, un chapati frais et une salade.*
+* ### **Sprouted Moong Curry :** 🌱Ⓥ <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+    Sprouted moong curry, served with colored quinoa or rice, and a cucumber salad with peanuts. / *Curry de haricots moong germés, servi avec du quinoa coloré ou du riz, et une salade de concombre aux cacahuètes.*
 
 * ### **Chicken Curry :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Classic chicken curry served with rice and a fresh cucumber salad. / *Curry de poulet classique servi avec du riz et une salade de concombre fraîche.*
