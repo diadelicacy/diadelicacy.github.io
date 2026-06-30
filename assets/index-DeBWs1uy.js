@@ -746,8 +746,8 @@ Un curry de haricots rouges réconfortant et copieux, servi avec du riz à la va
     Curry de poulet savoureux servi avec du riz et des courgettes de saison. / *Chicken curry served with rice and seasonal zucchini.*
 `,zo=`### 30 Juin, Mardi
 
-* ### **Maa Ki Dal :** 🌱Ⓥ <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
-    Lentilles noires urad traditionnelles (Maa ki Dal) servies avec du riz, un chapati frais et une salade. / *Traditional black urad dal (Maa ki Dal), served with rice, fresh chapati, and salad.*
+* ### **Curry de Moong Germé :** 🌱Ⓥ <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+    Curry de haricots moong germés, servi avec du quinoa coloré ou du riz, et une salade de concombre aux cacahuètes. / *Sprouted moong curry, served with colored quinoa or rice, and a cucumber salad with peanuts.*
 
 * ### **Curry de Poulet :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Curry de poulet classique servi avec du riz et une salade de concombre fraîche. / *Classic chicken curry served with rice and a fresh cucumber salad.*
