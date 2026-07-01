@@ -345,9 +345,11 @@ A comforting and hearty red kidney bean curry served alongside steamed rice and 
 * ### **Baingan Bharta & Dahi :** 🌱 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Smoked eggplant mash (Baingan Bharta) served with yogurt (dahi), veggies, and chapati. / *Caviar d'aubergines grillées (Baingan Bharta) servi avec du yaourt (dahi), des légumes et un chapati.*
 
-* ### **Lamb Curry :** 🥩 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+* ### **Lamb Curry :** 🥩 <span class="prix">24 CHF🍽️ / 24 CHF🥡</span>
     Tender slow-cooked lamb curry, served with rice and side vegetables. / *Curry d'agneau tendrement mijoté, servi avec du riz et des légumes d'accompagnement.*
-`,Ha=`### July 02, Thursday
+    
+* ### **Chicken Curry :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+    Classic chicken curry served with rice and a fresh cucumber salad. / *Curry de poulet classique servi avec du riz et une salade de concombre fraîche.*`,Ha=`### July 02, Thursday
 
 * ### **Maharashtrian Style Baingan Bharta :** 🌱Ⓥ <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Eggplant mash prepared in Maharashtrian style, served with chapati, rice, and veggies. / *Caviar d'aubergines préparé à la mode de Maharashtra, servi avec chapati, riz et légumes.*
@@ -756,8 +758,11 @@ Un curry de haricots rouges réconfortant et copieux, servi avec du riz à la va
 * ### **Baingan Bharta & Dahi :** 🌱 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Caviar d'aubergines grillées (Baingan Bharta) servi avec du yaourt (dahi), des légumes et un chapati. / *Smoked eggplant mash (Baingan Bharta) served with yogurt (dahi), veggies, and chapati.*
 
-* ### **Curry d'Agneau :** 🥩 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+* ### **Curry d'Agneau :** 🥩 <span class="prix">24 CHF🍽️ / 24 CHF🥡</span>
     Curry d'agneau tendrement mijoté, servi avec du riz et des légumes d'accompagnement. / *Tender slow-cooked lamb curry, served with rice and side vegetables.*
+    
+    * ### **Curry de Poulet :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+    Curry de poulet classique servi avec du riz et une salade de concombre fraîche. / *Classic chicken curry served with rice and a fresh cucumber salad.*
 `,Vo=`### 02 Juillet, Jeudi
 
 * ### **Baingan Bharta Style Maharashtrian :** 🌱Ⓥ <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
