@@ -424,7 +424,7 @@ Nous serons fermés du 23 au 25 mai en raison du Pentecôte.
 📮 Email: **[dia.delicacy@gmail.com](mailto:dia.delicacy@gmail.com)**
 
 ---
-`,Za=`## Bienvenue au Dia's Delicacy
+`,Za=`## Bienvenue chez Dia's Delicacy
 
 Découvrez l'excellence culinaire dans un cadre intime et élégant.
 `,Qa=`<!-- tab: Fêtes & Traiteur -->
