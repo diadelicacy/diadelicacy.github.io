@@ -354,7 +354,7 @@ A comforting and hearty red kidney bean curry served alongside steamed rice and 
 * ### **Maharashtrian Style Baingan Bharta :** 🌱Ⓥ <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Eggplant mash prepared in Maharashtrian style, served with chapati, rice, and veggies. / *Caviar d'aubergines préparé à la mode de Maharashtra, servi avec chapati, riz et légumes.*
 
-* ### **Lamb Curry :** 🥩 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+* ### **Lamb Curry :** 🥩 <span class="prix">24 CHF🍽️ / 24 CHF🥡</span>
     Flavorful lamb curry served with rice and seasonal vegetables. / *Curry d'agneau riche en saveurs, servi avec du riz et des légumes de saison.*
 `,Ua=`### July 03, Friday
 
