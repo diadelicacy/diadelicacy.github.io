@@ -768,7 +768,7 @@ Un curry de haricots rouges réconfortant et copieux, servi avec du riz à la va
 * ### **Baingan Bharta Style Maharashtrian :** 🌱Ⓥ <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Caviar d'aubergines préparé à la mode de Maharashtra, servi avec chapati, riz et légumes. / *Eggplant mash prepared in Maharashtrian style, served with chapati, rice, and veggies.*
 
-* ### **Curry d'Agneau :** 🥩 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+* ### **Curry d'Agneau :** 🥩 <span class="prix">24 CHF🍽️ / 24 CHF🥡</span>
     Curry d'agneau riche en saveurs, servi avec du riz et des légumes de saison. / *Flavorful lamb curry served with rice and seasonal vegetables.*
 `,Ho=`### 03 Juillet, Vendredi
 
