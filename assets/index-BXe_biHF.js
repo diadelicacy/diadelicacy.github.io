@@ -774,6 +774,9 @@ Un curry de haricots rouges réconfortant et copieux, servi avec du riz à la va
 
 * ### **Biryani au Poulet :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Plat de riz basmati parfumé et mijoté avec du poulet mariné et des épices traditionnelles, servi avec raïta. / *Fragrant basmati rice layered with marinated chicken and traditional spices, served with raita.*
+
+* ### **Masala Dosa / Egg Dosa :** 🌱🥚 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+    Crêpe fine de riz et lentilles fermentées, garnie d'une farce de pommes de terre épicées ou d'un œuf, servie avec sambar et chutney. / *Thin fermented rice and lentil crepe filled with spiced potatoes or egg, served with sambar and chutney.*
 `,Uo=`| | | |
 | :--- | :--- | :--- |
 | **Boissons** | Mango Lassi <br/> Kombucha <br/> Super Bock | 5 CHF |
