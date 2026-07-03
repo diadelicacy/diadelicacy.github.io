@@ -360,6 +360,9 @@ A comforting and hearty red kidney bean curry served alongside steamed rice and 
 
 * ### **Chicken Biryani :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Fragrant basmati rice layered with marinated chicken and traditional spices, served with raita. / *Plat de riz basmati parfumé et mijoté avec du poulet mariné et des épices traditionnelles, servi avec raïta.*
+
+* ### **Masala Dosa / Egg Dosa :** 🌱🥚 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+    Thin fermented rice and lentil crepe filled with spiced potatoes or egg, served with sambar and chutney.
 `,Wa=`| | | |
 | :--- | :--- | :--- |
 | **Drinks** | Mango Lassi <br/> Kombucha <br/> Super Bock | 5 CHF |
