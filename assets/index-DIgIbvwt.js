@@ -7,8 +7,7 @@ Here, each plate tells a story — a story of tradition, passion, and the joy of
 
 Every ingredient is carefully selected, and every dish is crafted with precision and love, ensuring a memorable dining experience for every guest.   `,Zi=`<!-- show: false -->
 ### Holiday Notice
-We will be closed from May 23 to May 25 for the Pentecôte long weekend.
-`,Qi=`📍 Address: **Rue Schaub 11, 1202 Genève**
+We inform you that we will be exceptionally closed on Wednesday, July 8, 2026`,Qi=`📍 Address: **Rue Schaub 11, 1202 Genève**
 
 📞 Phone: **[+41 227 34 11 22](tel:+41227341122)**
 
@@ -445,9 +444,9 @@ Fondée par la Cheffe **Dia Patel**, notre cuisine au cœur de Genève vous prop
 
 Ici, chaque assiette raconte une histoire — une histoire de tradition, de passion et du plaisir de partager un bon repas. Nous vous invitons à savourer avec nous l’héritage culinaire de l’Inde, une bouchée inoubliable à la fois.
 
-Chaque ingrédient est soigneusement sélectionné, et chaque plat est préparé avec précision et amour, afin d’offrir à chaque convive une expérience gastronomique mémorable.`,eo=`<!-- show: false -->
+Chaque ingrédient est soigneusement sélectionné, et chaque plat est préparé avec précision et amour, afin d’offrir à chaque convive une expérience gastronomique mémorable.`,eo=`<!-- show: true -->
 ### Avis de Fermeture
-Nous serons fermés du 23 au 25 mai en raison du Pentecôte.
+Nous vous informons que notre établissement sera exceptionnellement fermé le mercredi 8 juillet 2026
 
 `,to=`📍 Adresse: **Rue Schaub 11, 1202 Genève**
 
