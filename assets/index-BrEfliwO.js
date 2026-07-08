@@ -379,7 +379,7 @@ A comforting and hearty red kidney bean curry served alongside steamed rice and 
 `,Ka=`### July 08, Wednesday
 
 * ### **Closed :** 🗓️
-    Public Holiday — The restaurant is closed today. / *Fermé : Jour férié — Le restaurant est fermé aujourd'hui.*
+    The restaurant is closed today. / *Fermé : Le restaurant est fermé aujourd'hui.*
 `,qa=`### July 09, Thursday
 
 * ### **Kerala Style Fish Curry :** 🐟 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
@@ -825,7 +825,7 @@ Un curry de haricots rouges réconfortant et copieux, servi avec du riz à la va
 `,Xo=`### 08 Juillet, Mercredi
 
 * ### **Fermé :** 🗓️
-    Jour férié — Le restaurant est fermé aujourd'hui. / *Public Holiday — The restaurant is closed today.*
+    Le restaurant est fermé aujourd'hui. / *The restaurant is closed today.*
 `,Zo=`### 09 Juillet, Jeudi
 
 * ### **Curry de Poisson Style Kerala :** 🐟 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
