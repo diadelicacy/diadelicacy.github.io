@@ -835,7 +835,7 @@ Un curry de haricots rouges réconfortant et copieux, servi avec du riz à la va
 * ### **Poulet Tandoori & Riz aux Épinards :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Poulet mariné aux épices tandoori et grillé, servi avec un riz aux épinards et un raïta de betterave rouge. *Poulet : Origine Suisse.* / *Spiced marinated grilled chicken tandoori, served with aromatic spinach rice and a vibrant beetroot raita. Chicken: Origin Switzerland.*
 
-* ### **Masala Dosa & Egg Dosa :** 🌱 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
+* ### **Masala Dosa & Egg Dosa :** 🌱 <span class="prix">22 CHF🍽️ / 22 CHF🥡</span>
     Crêpes de lentilles et riz fermentés croustillantes : une garnie de pommes de terre épicées (Masala) et une préparée avec un œuf, servies avec chutney et sambar. / *Crispy fermented rice and lentil crepes: one filled with spiced potato mash (Masala) and one layered with egg, served with chutney and sambar.*
 `,$o=`| | | |
 | :--- | :--- | :--- |
