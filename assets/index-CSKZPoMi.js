@@ -899,7 +899,7 @@ Un curry de haricots rouges réconfortant et copieux, servi avec du riz à la va
     Curry de truite fraîche préparé avec des épices douces, servi avec du riz et des légumes. / *Fresh trout curry prepared with delicate spices, served with rice and side vegetables.*
 
 * ### **Shahi Paneer :** 🌱 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
-    Fromage indien fait maison (Paneer) préparé dans une sauce royale et crémeuse aux noix de cajou et épices douces, servi avec du riz et des légumes. / *Homemade Indian cheese (Paneer) cooked in a royal, creamy cashew sauce with mild spices, served with rice and veggies.*
+    Fromage indien (Paneer) préparé dans une sauce royale et crémeuse aux noix de cajou et épices douces, servi avec du riz et des légumes. / *Indian cheese (Paneer) cooked in a royal, creamy cashew sauce with mild spices, served with rice and veggies.*
 `,cs=`### 17 Juillet, Vendredi
 
 * ### **Biryani au Poulet :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
