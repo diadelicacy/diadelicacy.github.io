@@ -905,8 +905,8 @@ Un curry de haricots rouges réconfortant et copieux, servi avec du riz à la va
 * ### **Biryani au Poulet :** 🍗 <span class="prix">22 CHF🍽️ / 20 CHF🥡</span>
     Plat de riz basmati parfumé et mijoté avec du poulet mariné et des épices traditionnelles, servi avec raïta. *Poulet : Origine Suisse.* / *Fragrant basmati rice layered with marinated chicken and traditional spices, served with raita. Chicken: Origin Switzerland.*
 
-* ### **Palak Paneer Dosa :** 🌱 <span class="prix">22 CHF🍽️ / 22 CHF🥡</span>
-    Crêpe de lentilles et riz fermentés croustillante, garnie de fromage Paneer et d'épinards aux épices douces, servie avec chutney et sambar. / *Crispy fermented rice and lentil crepe filled with spiced Paneer and spinach, served with chutney and sambar.*
+* ### **Paneer Dosa Ou Egg Dosa :** 🌱 <span class="prix">22 CHF🍽️ / 22 CHF🥡</span>
+    Crêpe de lentilles et riz fermentés croustillante, garnie de fromage Paneer aux épices douces ou une préparée avec un œuf, servie avec chutney et sambar. / *Crispy fermented rice and lentil crepe filled with spiced Paneer Or eggs, served with chutney and sambar.*
 `,ls=`| | | |
 | :--- | :--- | :--- |
 | **Boissons** | Mango Lassi <br/> Kombucha <br/> Super Bock | 5 CHF |
