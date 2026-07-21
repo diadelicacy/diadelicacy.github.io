@@ -7,7 +7,10 @@ Here, each plate tells a story — a story of tradition, passion, and the joy of
 
 Every ingredient is carefully selected, and every dish is crafted with precision and love, ensuring a memorable dining experience for every guest.   `,Zi=`<!-- show: false -->
 ### Holiday Notice
-We inform you that we will be exceptionally closed on Wednesday, July 8, 2026`,Qi=`📍 Address: **Rue Schaub 11, 1202 Genève**
+Our restaurant will be closed for the holidays.
+We look forward to welcoming you back on Monday, 17 August.
+Thank you for your understanding, and have a wonderful summer! ☀️
+`,Qi=`📍 Address: **Rue Schaub 11, 1202 Genève**
 
 📞 Phone: **[+41 227 34 11 22](tel:+41227341122)**
 
