@@ -481,8 +481,9 @@ Ici, chaque assiette raconte une histoire — une histoire de tradition, de pass
 
 Chaque ingrédient est soigneusement sélectionné, et chaque plat est préparé avec précision et amour, afin d’offrir à chaque convive une expérience gastronomique mémorable.`,ao=`<!-- show: true -->
 ### Avis de Fermeture
-Nous vous informons que notre établissement sera exceptionnellement fermé le mercredi 8 juillet 2026
-
+Notre restaurant sera fermé pour les vacances.
+Nous aurons le plaisir de vous accueillir à nouveau à partir du lundi 17 août.
+Merci de votre compréhension et bel été ! ☀️
 `,oo=`📍 Adresse: **Rue Schaub 11, 1202 Genève**
 
 📞 Téléphone: **[+41 227 34 11 22](tel:+41227341122)**
